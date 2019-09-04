@@ -1,0 +1,29 @@
+/* Load Foundation */
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-everything();
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+.greek {
+    font-family: 'GFS Neohellenic', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    &.greek {
+        text-transform: uppercase;
+    }
+}
+
+a {
+    transition: color 0.3s;
+}
+
+/* Generic styles */
+@import 'snippet';
+@import 'logos';
+
+/* Page-specific styles */
+@import 'landing';

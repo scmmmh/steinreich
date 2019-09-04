@@ -1,0 +1,38 @@
+.orbit-figure {
+    a {
+        &:hover {
+            figcaption {
+                span {
+                    color: $light-gray;
+                }
+            }
+        }
+
+        .orbit-caption {
+            font-family: $header-font-family;
+
+            span {
+                display: block;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+
+                &:nth-child(1) {
+                    font-size: 120%;
+
+                    &.greek {
+                        text-transform: uppercase;
+                    }
+                }
+
+                &:nth-child(2) {
+                }
+
+                &:nth-child(3) {
+                    font-size: 80%;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

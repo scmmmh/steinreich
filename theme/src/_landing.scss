@@ -1,0 +1,31 @@
+.landing {
+    .grid-x {
+        height: 100vh;
+
+        > .grid-y {
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                margin: 0;
+                font-size: rem-calc(32);
+
+                @include breakpoint(medium) {
+                    font-size: rem-calc(42);
+                }
+
+            }
+        }
+
+        > :nth-child(2) {
+            .orbit {
+                top: 50%;
+                transform: translateY(-50%);
+
+                figure {
+                    max-height: 15rem;
+                }
+            }
+        }
+    }
+}

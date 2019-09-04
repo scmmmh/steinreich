@@ -1,0 +1,26 @@
+.logos {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        max-height: rem-calc(50);
+
+        @include breakpoint(medium) {
+            max-height: rem-calc(75);
+        }
+
+        @include breakpoint(large) {
+            max-height: rem-calc(100);
+        }
+    }
+
+    &.small {
+        img {
+            max-height: rem-calc(50);
+        }
+    }
+}
