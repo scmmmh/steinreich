@@ -1,0 +1,12 @@
+<script>
+const html = document.querySelector('html');
+const body = document.querySelector('body');
+const baseHeader = document.querySelector('header');
+window.addEventListener('scroll', function(ev) {
+    if (html.scrollTop == 0) {
+        body.classList.remove('scrolling');
+    } else {
+        body.classList.add('scrolling');
+    }
+});
+</script>

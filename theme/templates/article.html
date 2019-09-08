@@ -1,24 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8"/>
-  <title>{{ article.title }}</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|GFS+Neohellenic|Merriweather:300&display=swap"/>
-  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/theme.css"/>
-</head>
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{ article.title }}</title>
+{% endblock head %}
+
+{% block body %}
 <body class="article">
-  <header>
-    <nav class="grid-x">
-      <ul class="cell small-12 medium-shrink menu">
-        <li><a href="{{ SITEURL }}/">Stein&middot;reich</a></li>
-      </ul>
-      <ul class="cell small-12 medium-auto menu">
-        <li><a href="#">Raumplan</a></li>
-        <li><a href="#">Themen</a></li>
-        <li><a href="#">Entdecken</a></li>
-      </ul>
-    </nav>
-  </header>
+  {% include '_header.html' %}
   <div class="grid-container">
     <div class="grid-x">
       <div class="cell small-12 large-9 grid-y texts">
@@ -77,37 +65,9 @@
       </div>
     </div>
   </div>
-  <footer class="logos">
-    <a href=""><img src="https://www.uni-leipzig.de/typo3conf/ext/mkunileipzig/Resources/Public/Images/Icons/uni_leipzig_logo_v2.svg" alt="Universität Leipzig"/></a>
-    <a href=""><img src="https://www.uni-halle.de/im/sod/common/img/signet_right.jpg" alt="Martin-Luther-Universität Halle-Wittenberg"/></a>
-  </footer>
-  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/scripts.js"></script>
-  <script>
-  $(document).foundation();
-  </script>
-  <script>
-  /*var goToLandingTimeout;
-  function goToLanding() {
-      window.location = '/';
-  }
-  function cancelGoToLanding() {
-      clearTimeout(goToLandingTimeout)
-      goToLandingTimeout = setTimeout(goToLanding, 300000);
-  }
-  goToLandingTimeout = setTimeout(goToLanding, 300000);
-  $(document).on('mousemove', cancelGoToLanding).on('keyup', cancelGoToLanding);;*/
-  </script>
-  <script>
-  const html = document.querySelector('html');
-  const body = document.querySelector('body');
-  const baseHeader = document.querySelector('header');
-  window.addEventListener('scroll', function(ev) {
-      if (html.scrollTop == 0) {
-          body.classList.remove('scrolling');
-      } else {
-          body.classList.add('scrolling');
-      }
-  });
-  </script>
+  {% include '_footer.html' %}
+  {% include '_base_scripts.html' %}
+  {% include '_go_to_landing_script.html' %}
+  {% include '_scrolling_script.html' %}
 </body>
-</html>
+{% endblock body %}
