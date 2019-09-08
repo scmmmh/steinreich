@@ -1,0 +1,140 @@
+.article {
+    margin-bottom: rem-calc(60);
+    overflow-x: hidden;
+
+    @include breakpoint(medium) {
+        margin-bottom: rem-calc(85);
+    }
+
+    @include breakpoint(large) {
+        margin-bottom: rem-calc(110);
+    }
+
+    @include breakpoint(medium down) {
+        header {
+            margin-bottom: 0;
+            box-shadow: none;
+            border-bottom: 1px solid $light-gray;
+        }
+
+        &.scrolling {
+            header {
+                border-bottom: 0;
+                box-shadow: 0 0 5px $dark-gray;
+            }
+        }
+    }
+
+    .logos {
+        box-shadow: 0 0 5px $medium-gray;
+    }
+
+    .texts {
+        @include breakpoint(large) {
+            box-sizing: border-box;
+            padding-right: $global-padding * 2;
+        }
+
+        > * {
+            order: 5;
+        }
+        > .original {
+            order: 1;
+            font-family: $header-font-family;
+            font-size: $paragraph-font-size;
+            line-height: $paragraph-lineheight;
+            margin-bottom: 0;
+
+            @include breakpoint(medium) {
+                font-size: $paragraph-font-size * 1.2;
+                line-height: $paragraph-lineheight * 1.2;
+            }
+        }
+        > h1 {
+            order: 2;
+            font-family: $body-font-family;
+            font-size: $cite-font-size;
+            text-align: right;
+            margin-bottom: $paragraph-margin-bottom * 2;
+            padding-left: 25%;
+
+            &::before {
+                content: '\2014';
+                padding-right: 0.3rem;
+            }
+        }
+        > .translation {
+            order: 3;
+
+            @include breakpoint(medium) {
+                font-size: $paragraph-font-size * 1.2;
+                line-height: $paragraph-lineheight * 1.2;
+            }
+        }
+        > .translation-source {
+            order: 4;
+            font-family: $body-font-family;
+            font-size: $cite-font-size;
+            text-align: right;
+            margin-bottom: $paragraph-margin-bottom * 2;
+            padding-left: 25%;
+
+            &::before {
+                content: '\2014';
+                padding-right: 0.3rem;
+            }
+        }
+    }
+
+    .metadata {
+        font-size: rem-calc(15);
+
+        @include breakpoint(medium down) {
+            order: -1;
+            margin-bottom: $global-margin * 2;
+            margin-left: -0.625rem;
+            margin-right: -0.625rem;
+            width: calc(100% + 1.25rem);
+            box-shadow: 0 0 5px $light-gray;
+
+            @include breakpoint(medium only) {
+                margin-left: -0.9375rem;
+                margin-right: -0.9375rem;
+                width: calc(100% + 1.875rem);
+            }
+
+            ul {
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                @include breakpoint(small only) {
+                    li {
+                        flex: 0 0 auto;
+                        width: auto;
+
+
+                        &:first-child {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                @include breakpoint(medium only) {
+                    li {
+                        flex: 0 0 auto;
+
+                        &:first-child {
+                            flex: 1 1 auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        @include breakpoint(large) {
+            border-left: 1px solid $light-gray;
+            box-sizing: border-box;
+            padding-left: $global-padding;
+        }
+    }
+}

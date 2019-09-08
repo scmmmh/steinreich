@@ -178,7 +178,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Merriweather", serif;
   font-weight: normal;
   line-height: 1.5;
   color: #222222;
@@ -6095,7 +6095,7 @@ a {
       text-align: right; }
 
 .logos {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -6104,7 +6104,8 @@ a {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background: #fefefe; }
   .logos img {
     max-height: 3.125rem; }
     @media print, screen and (min-width: 40em) {
@@ -6115,6 +6116,47 @@ a {
         max-height: 6.25rem; } }
   .logos.small img {
     max-height: 3.125rem; }
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0 0 5px #cacaca;
+  box-shadow: 0 0 5px #cacaca;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  margin-bottom: 2rem;
+  z-index: 1000;
+  background: #fefefe; }
+  header nav ul:first-child {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    @media print, screen and (min-width: 40em) {
+      header nav ul:first-child {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start; } }
+    header nav ul:first-child li {
+      font-family: "Cinzel", serif;
+      font-size: 1.25rem; }
+  header nav ul:last-child {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    @media print, screen and (min-width: 40em) {
+      header nav ul:last-child {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end; } }
+    header nav ul:last-child li {
+      font-size: 1.125rem; }
+
+.scrolling header {
+  -webkit-box-shadow: 0 0 5px #666666;
+  box-shadow: 0 0 5px #666666; }
 
 /* Page-specific styles */
 .landing .grid-x {
@@ -6138,3 +6180,128 @@ a {
     transform: translateY(-50%); }
     .landing .grid-x > :nth-child(2) .orbit figure {
       max-height: 15rem; }
+
+.article {
+  margin-bottom: 3.75rem;
+  overflow-x: hidden; }
+  @media print, screen and (min-width: 40em) {
+    .article {
+      margin-bottom: 5.3125rem; } }
+  @media print, screen and (min-width: 64em) {
+    .article {
+      margin-bottom: 6.875rem; } }
+  @media screen and (max-width: 63.99875em) {
+    .article header {
+      margin-bottom: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-bottom: 1px solid #e6e6e6; }
+    .article.scrolling header {
+      border-bottom: 0;
+      -webkit-box-shadow: 0 0 5px #666666;
+      box-shadow: 0 0 5px #666666; } }
+  .article .logos {
+    -webkit-box-shadow: 0 0 5px #cacaca;
+    box-shadow: 0 0 5px #cacaca; }
+  @media print, screen and (min-width: 64em) {
+    .article .texts {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-right: 2rem; } }
+  .article .texts > * {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5; }
+  .article .texts > .original {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    font-family: "Cinzel", serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0; }
+    @media print, screen and (min-width: 40em) {
+      .article .texts > .original {
+        font-size: 1.2rem;
+        line-height: 1.92; } }
+  .article .texts > h1 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    font-family: "Merriweather", serif;
+    font-size: 0.8125rem;
+    text-align: right;
+    margin-bottom: 2rem;
+    padding-left: 25%; }
+    .article .texts > h1::before {
+      content: '\2014';
+      padding-right: 0.3rem; }
+  .article .texts > .translation {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3; }
+    @media print, screen and (min-width: 40em) {
+      .article .texts > .translation {
+        font-size: 1.2rem;
+        line-height: 1.92; } }
+  .article .texts > .translation-source {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+    font-family: "Merriweather", serif;
+    font-size: 0.8125rem;
+    text-align: right;
+    margin-bottom: 2rem;
+    padding-left: 25%; }
+    .article .texts > .translation-source::before {
+      content: '\2014';
+      padding-right: 0.3rem; }
+  .article .metadata {
+    font-size: 0.9375rem; }
+    @media screen and (max-width: 63.99875em) {
+      .article .metadata {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        margin-bottom: 2rem;
+        margin-left: -0.625rem;
+        margin-right: -0.625rem;
+        width: calc(100% + 1.25rem);
+        -webkit-box-shadow: 0 0 5px #e6e6e6;
+        box-shadow: 0 0 5px #e6e6e6; } }
+  @media screen and (max-width: 63.99875em) and (min-width: 40em) and (max-width: 63.99875em) {
+    .article .metadata {
+      margin-left: -0.9375rem;
+      margin-right: -0.9375rem;
+      width: calc(100% + 1.875rem); } }
+    @media screen and (max-width: 63.99875em) {
+        .article .metadata ul {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+    @media screen and (max-width: 63.99875em) and (max-width: 39.99875em) {
+      .article .metadata ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: auto; }
+        .article .metadata ul li:first-child {
+          width: 100%; } }
+    @media screen and (max-width: 63.99875em) and (min-width: 40em) and (max-width: 63.99875em) {
+      .article .metadata ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto; }
+        .article .metadata ul li:first-child {
+          -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto; } }
+    @media print, screen and (min-width: 64em) {
+      .article .metadata {
+        border-left: 1px solid #e6e6e6;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 1rem; } }

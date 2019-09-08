@@ -1,0 +1,41 @@
+header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 5px $medium-gray;
+    transition: box-shadow 0.3s;
+    margin-bottom: $global-margin * 2;
+    z-index: 1000;
+    background: $white;
+
+    nav {
+        ul:first-child {
+            justify-content: center;
+
+            @include breakpoint(medium) {
+                justify-content: flex-start;
+            }
+
+            li {
+                font-family: $header-font-family;
+                font-size: rem-calc(20);
+            }
+        }
+        ul:last-child {
+            justify-content: space-between;
+
+            @include breakpoint(medium) {
+                justify-content: flex-end;
+            }
+
+            li {
+                font-size: rem-calc(18);
+            }
+        }
+    }
+}
+
+.scrolling {
+    header {
+        box-shadow: 0 0 5px $dark-gray;
+    }
+}
