@@ -6305,3 +6305,8 @@ header {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         padding-left: 1rem; } }
+  @media print, screen and (min-width: 64em) {
+    .article .images {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-right: 2rem; } }

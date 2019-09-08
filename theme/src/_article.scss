@@ -137,4 +137,11 @@
             padding-left: $global-padding;
         }
     }
+
+    .images {
+        @include breakpoint(large) {
+            box-sizing: border-box;
+            padding-right: $global-padding * 2;
+        }
+    }
 }
