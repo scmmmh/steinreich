@@ -23,7 +23,7 @@
       </div>
       {% if article.images %}
         <div class="cell small-12 large-9 images">
-          <div class="orbit" role="region" aria-label="Stone Samples" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+          <div class="orbit image-detail" role="region" aria-label="Stone Samples" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
             <ul class="orbit-container">
               {% for image in article.images %}
                 <li class="orbit-slide is-active">
@@ -31,7 +31,7 @@
                     <img class="orbit-image" src="{{ SITEURL }}/images/{{ image[0] }}" alt="Photo of a stone">
                     <figcaption class="orbit-caption">
                       <span>{{ image[1] }}</span>
-                      <span><a href="{{ image[3] }}">{{ image[2] }}</a></span>
+                      <span><a href="{{ image[3] }}" target="_blank" rel="noopener">{{ image[2] }}</a></span>
                     </figcaption>
                   </figure>
                 </li>

@@ -6158,6 +6158,13 @@ header {
   -webkit-box-shadow: 0 0 5px #666666;
   box-shadow: 0 0 5px #666666; }
 
+.image-detail .orbit-caption span {
+  display: block; }
+  .image-detail .orbit-caption span a {
+    color: #e6e6e6; }
+    .image-detail .orbit-caption span a:hover {
+      color: #fefefe; }
+
 /* Page-specific styles */
 .landing .grid-x {
   height: 100vh; }

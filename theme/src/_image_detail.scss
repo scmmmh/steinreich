@@ -1,0 +1,15 @@
+.image-detail {
+    .orbit-caption {
+        span {
+            display: block;
+
+            a {
+                color: $light-gray;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
