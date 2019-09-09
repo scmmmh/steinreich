@@ -9,7 +9,7 @@
   {% include '_header.html' %}
   <div class="grid-container">
     <div class="grid-x">
-      <div class="cell small-12 large-9 grid-y texts">
+      <div class="cell small-12 {% if article.images %}large-5{% else %}large-9{% endif %} grid-y texts">
         <h1>{{ article.title }}</h1>
         {{ article.content }}
       </div>
@@ -22,7 +22,7 @@
         </ul>
       </div>
       {% if article.images %}
-        <div class="cell small-12 large-9 images">
+        <div class="cell small-12 large-4 images">
           <div class="orbit image-detail" role="region" aria-label="Stone Samples" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
             <ul class="orbit-container">
               {% for image in article.images %}

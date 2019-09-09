@@ -30,6 +30,8 @@
     }
 
     .texts {
+        order: 0;
+
         @include breakpoint(large) {
             box-sizing: border-box;
             padding-right: $global-padding * 2;
@@ -87,6 +89,7 @@
     }
 
     .metadata {
+        order: 3;
         font-size: rem-calc(15);
 
         @include breakpoint(medium down) {
@@ -122,9 +125,18 @@
     }
 
     .images {
+        order: 3;
+
         @include breakpoint(large) {
             box-sizing: border-box;
             padding-right: $global-padding * 2;
+            order: 2;
+        }
+    }
+
+    .grid-container {
+        @include breakpoint(large) {
+            max-width: 93rem;
         }
     }
 }
