@@ -107,26 +107,9 @@
                 flex-direction: row;
                 flex-wrap: wrap;
 
-                @include breakpoint(small only) {
-                    li {
-                        flex: 0 0 auto;
-                        width: auto;
-
-
-                        &:first-child {
-                            width: 100%;
-                        }
-                    }
-                }
-
-                @include breakpoint(medium only) {
-                    li {
-                        flex: 0 0 auto;
-
-                        &:first-child {
-                            flex: 1 1 auto;
-                        }
-                    }
+                li {
+                    flex: 0 0 auto;
+                    width: auto;
                 }
             }
         }

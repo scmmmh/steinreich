@@ -6281,24 +6281,12 @@ header {
           -ms-flex-direction: row;
           flex-direction: row;
           -ms-flex-wrap: wrap;
-          flex-wrap: wrap; } }
-    @media screen and (max-width: 63.99875em) and (max-width: 39.99875em) {
-      .article .metadata ul li {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: auto; }
-        .article .metadata ul li:first-child {
-          width: 100%; } }
-    @media screen and (max-width: 63.99875em) and (min-width: 40em) and (max-width: 63.99875em) {
-      .article .metadata ul li {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto; }
-        .article .metadata ul li:first-child {
-          -webkit-box-flex: 1;
-          -ms-flex: 1 1 auto;
-          flex: 1 1 auto; } }
+          flex-wrap: wrap; }
+          .article .metadata ul li {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: auto; } }
     @media print, screen and (min-width: 64em) {
       .article .metadata {
         border-left: 1px solid #e6e6e6;
