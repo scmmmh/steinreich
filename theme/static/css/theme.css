@@ -6076,21 +6076,21 @@ a {
   transition: color 0.3s; }
 
 /* Generic styles */
-.orbit-figure a:hover figcaption span {
+.snippet .orbit-figure a:hover figcaption span {
   color: #e6e6e6; }
 
-.orbit-figure a .orbit-caption {
+.snippet .orbit-figure a .orbit-caption {
   font-family: "Cinzel", serif; }
-  .orbit-figure a .orbit-caption span {
+  .snippet .orbit-figure a .orbit-caption span {
     display: block;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis; }
-    .orbit-figure a .orbit-caption span:nth-child(1) {
+    .snippet .orbit-figure a .orbit-caption span:nth-child(1) {
       font-size: 120%; }
-      .orbit-figure a .orbit-caption span:nth-child(1).greek {
+      .snippet .orbit-figure a .orbit-caption span:nth-child(1).greek {
         text-transform: uppercase; }
-    .orbit-figure a .orbit-caption span:nth-child(3) {
+    .snippet .orbit-figure a .orbit-caption span:nth-child(3) {
       font-size: 80%;
       text-align: right; }
 
