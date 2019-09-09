@@ -6105,17 +6105,26 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background: #fefefe; }
+  background: #fefefe;
+  overflow: hidden;
+  max-height: 3.125rem;
+  -webkit-transition: max-height 0.3s;
+  transition: max-height 0.3s; }
+  @media print, screen and (min-width: 40em) {
+    .logos {
+      max-height: 4.6875rem; } }
+  @media print, screen and (min-width: 64em) {
+    .logos {
+      max-height: 6.25rem; } }
+  .logos a {
+    display: block; }
+    .logos a:last-child {
+      text-align: right; }
   .logos img {
-    max-height: 3.125rem; }
-    @media print, screen and (min-width: 40em) {
-      .logos img {
-        max-height: 4.6875rem; } }
-    @media print, screen and (min-width: 64em) {
-      .logos img {
-        max-height: 6.25rem; } }
-  .logos.small img {
-    max-height: 3.125rem; }
+    max-height: 100%; }
+
+.scrolling .logos {
+  max-height: 3.125rem; }
 
 header {
   position: -webkit-sticky;
