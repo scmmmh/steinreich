@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{ category }}</title>
+{% endblock head %}
+
+{% block body %}
+<body class="tags">
+  {% include '_header.html' %}
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="cell small-12">
+        <h1>{{ category }}</h1>
+        <ul>
+          {% for article in articles %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% include '_footer.html' %}
+  {% include '_base_scripts.html' %}
+  {% include '_go_to_landing_script.html' %}
+  {% include '_scrolling_script.html' %}
+</body>
+{% endblock body %}
