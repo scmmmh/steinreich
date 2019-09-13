@@ -17,7 +17,9 @@
         <ul class="menu vertical">
           <li><a href="{{ article.category.url }}">{{ article.category }}</a></li>
           {% for tag in article.tags %}
-            <li><a href="{{ tag.url }}">{{ tag | escape }}</a></li>
+            {% if tag.slug != article.category.slug %}
+              <li><a href="{{ tag.url }}">{{ tag | escape }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
       </div>

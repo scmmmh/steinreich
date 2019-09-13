@@ -6281,6 +6281,8 @@ header {
     -ms-flex-order: 3;
     order: 3;
     font-size: 0.9375rem; }
+    .article .metadata ul li:first-child {
+      margin-bottom: 1rem; }
     @media screen and (max-width: 63.99875em) {
       .article .metadata {
         -webkit-box-ordinal-group: 0;

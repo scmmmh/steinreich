@@ -92,6 +92,12 @@
         order: 3;
         font-size: rem-calc(15);
 
+        ul {
+            li:first-child {
+                margin-bottom: $global-margin;
+            }
+        }
+
         @include breakpoint(medium down) {
             order: -1;
             margin-bottom: $global-margin * 2;
