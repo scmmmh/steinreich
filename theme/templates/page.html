@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{ page.title }}</title>
+{% endblock head %}
+
+{% block body %}
+<body class="page">
+  {% include '_header.html' %}
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="cell small-12 large-8 grid-y texts">
+        <h1>{{ page.title }}</h1>
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+  {% include '_footer.html' %}
+  {% include '_base_scripts.html' %}
+  {% include '_go_to_landing_script.html' %}
+  {% include '_scrolling_script.html' %}
+</body>
+{% endblock body %}

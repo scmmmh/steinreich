@@ -9,19 +9,19 @@
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="cell small-12 medium-6 grid-y">
-        <h1 class="cell greek">πέτρα&middot;πλούσιος</h1>
+        <h1 class="cell greek"><span class="fg-blue">πέτρα</span>&middot;<span class="fg-red">πλούσιος</span></h1>
         <ul class="cell menu">
           <li><a href="">Raumplan</a></li>
           <li><a href="{{ SITEURL }}/categories.html">Themen</a></li>
           <li><a href="{{ SITEURL }}/tags.html">Entdecken</a></li>
         </ul>
-        <h1 class="cell">Stein&middot;reich</h1>
+        <h1 class="cell"><span class="fg-blue">Stein</span>&middot;<span class="fg-red">reich</span></h1>
         <ul class="cell menu">
           <li><a href="">Raumplan</a></li>
           <li><a href="{{ SITEURL }}/categories.html">Themen</a></li>
           <li><a href="{{ SITEURL }}/tags.html">Entdecken</a></li>
         </ul>
-        <h1 class="cell">lapis&middot;dives</h1>
+        <h1 class="cell"><span class="fg-blue">lapis</span>&middot;<span class="fg-red">dives</span></h1>
       </div>
       <div class="cell small-12 medium-6">
         <div class="orbit snippet" role="region" aria-label="Stone Samples" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
@@ -67,13 +67,7 @@
       </div>
     </div>
   </div>
-  <footer class="logos">
-    <a href=""><img src="https://www.uni-leipzig.de/typo3conf/ext/mkunileipzig/Resources/Public/Images/Icons/uni_leipzig_logo_v2.svg" alt="Universität Leipzig"/></a>
-    <a href=""><img src="https://www.uni-halle.de/im/sod/common/img/signet_right.jpg" alt="Martin-Luther-Universität Halle-Wittenberg"/></a>
-  </footer>
-  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/scripts.js"></script>
-  <script>
-  $(document).foundation();
-  </script>
+  {% include '_footer.html' %}
+  {% include '_base_scripts.html' %}
 </body>
 {% endblock body %}

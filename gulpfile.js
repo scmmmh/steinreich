@@ -6,7 +6,10 @@ var gulp = require('gulp'),
 
 gulp.task('css', function(cb) {
     pump([
-        gulp.src('theme/src/theme.scss'),
+        gulp.src([
+            'theme/src/theme.scss',
+            'theme/src/fonts.scss',
+        ]),
         sass({
             includePaths: [
                 'node_modules/foundation-sites/scss',

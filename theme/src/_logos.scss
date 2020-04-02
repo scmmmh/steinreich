@@ -1,38 +1,22 @@
-.logos {
+footer.main {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     background: $white;
-    overflow: hidden;
-    max-height: rem-calc(50);
-    transition: max-height 0.3s;
-
-    @include breakpoint(medium) {
-        max-height: rem-calc(75);
-    }
-
-    @include breakpoint(large) {
-        max-height: rem-calc(100);
-    }
 
     a {
-        display: block;
-
-        &:last-child {
-            text-align: right;
-        }
-    }
-
-    img {
-        max-height: 100%;
+        display: inline-block;
+        padding: $global-padding/3 $global-padding/2;
+        font-size: rem-calc(14);
+        transition: 0.5s font-size;
     }
 }
 
 .scrolling {
     .logos {
-        max-height: rem-calc(50);
+        a {
+            font-size: rem-calc(10);
+        }
     }
 }
