@@ -7,6 +7,8 @@ then
 fi
 
 git pull
+yarn install
+node_modules/.bin/gulp
 export PIPENV_VENV_IN_PROJECT=True
 pipenv install
 pipenv run pelican -s publishconf.py -o output -d content
