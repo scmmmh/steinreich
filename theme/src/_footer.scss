@@ -4,6 +4,8 @@ footer.main {
     bottom: 0;
     width: 100%;
     background: $white;
+    box-shadow: 0 0 5px $medium-gray;
+    transition: 0.5s box-shadow;
 
     a {
         display: inline-block;
@@ -14,7 +16,9 @@ footer.main {
 }
 
 .scrolling {
-    .logos {
+    footer.main {
+        box-shadow: 0 0 5px $dark-gray;
+
         a {
             font-size: rem-calc(10);
         }

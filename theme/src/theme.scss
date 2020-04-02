@@ -21,10 +21,14 @@ a {
     transition: color 0.3s;
 }
 
+.grid-container {
+    margin-bottom: $global-margin * 2;
+}
+
 /* Generic styles */
 @import 'generic';
 @import 'snippet';
-@import 'logos';
+@import 'footer';
 @import 'header';
 @import 'image_detail';
 
