@@ -6,7 +6,7 @@
   "private": true,
   "browserslist": "last 2 versions",
   "dependencies": {
-    "foundation-sites": "^6.5.3",
+    "foundation-sites": "^6.6.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-concat": "^2.6.1",
