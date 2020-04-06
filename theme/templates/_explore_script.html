@@ -1,0 +1,57 @@
+<script>
+const labelList = document.querySelector('.label-list');
+const figureList = document.querySelector('.figure-list');
+
+function mouseOverLabel(ev) {
+    const labelId = ev.target.getAttribute('class');
+    const highlightClass = ev.target.getAttribute('data-highlight-class');
+    const highlightElements = figureList.querySelectorAll('figure.' + labelId);
+    for (let idx = 0; idx < highlightElements.length; idx++) {
+        highlightElements[idx].classList.add(highlightClass);
+    }
+}
+function mouseOutLabel(ev) {
+    const labelId = ev.target.getAttribute('class');
+    const highlightElements = figureList.querySelectorAll('figure.' + labelId);
+    for (let idx = 0; idx < highlightElements.length; idx++) {
+        highlightElements[idx].classList.remove('highlight-red');
+        highlightElements[idx].classList.remove('highlight-blue');
+    }
+}
+
+function mouseOverFigure(ev) {
+    const figure = ev.target.closest('figure');
+    const selector = [];
+    for (let idx = 0; idx < figure.classList.length; idx++) {
+        selector.push('a.' + figure.classList[idx]);
+    }
+    const highlightClass = figure.getAttribute('data-highlight-class');
+    const highlightElements = labelList.querySelectorAll(selector.join(','));
+    for (let idx = 0; idx < highlightElements.length; idx++) {
+        highlightElements[idx].classList.add(highlightClass);
+    }
+}
+function mouseOutFigure(ev) {
+    const figure = ev.target.closest('figure');
+    const selector = [];
+    for (let idx = 0; idx < figure.classList.length; idx++) {
+        selector.push('a.' + figure.classList[idx]);
+    }
+    const highlightElements = labelList.querySelectorAll(selector.join(','));
+    for (let idx = 0; idx < highlightElements.length; idx++) {
+        highlightElements[idx].classList.remove('highlight-red');
+        highlightElements[idx].classList.remove('highlight-blue');
+    }
+}
+
+const labelElements = labelList.querySelectorAll('a');
+for (let idx = 0; idx < labelElements.length; idx++) {
+    labelElements[idx].addEventListener('mouseover', mouseOverLabel);
+    labelElements[idx].addEventListener('mouseout', mouseOutLabel);
+}
+const figureElements = figureList.querySelectorAll('figure');
+for (let idx = 0; idx < figureElements.length; idx++) {
+    figureElements[idx].addEventListener('mouseover', mouseOverFigure);
+    figureElements[idx].addEventListener('mouseout', mouseOutFigure);
+}
+</script>

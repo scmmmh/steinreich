@@ -34,7 +34,10 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ['./']
-PLUGINS = ['images_plugin']
+PLUGINS = [
+    'images_plugin',
+    'extra_filters',
+]
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True

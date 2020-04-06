@@ -5,23 +5,36 @@
 {% endblock head %}
 
 {% block body %}
-<body class="tags">
+<body class="categories">
   {% include '_header.html' %}
   <div class="grid-container">
     <div class="grid-x">
       <div class="cell small-12">
         <h1>Themen</h1>
-        <ul>
-          {% for (category, articles) in categories %}
-            <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
-              <ul>
-                {% for article in articles %}
-                  <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ul>
+        <div class="grid-x hide-for-small">
+            <div class="cell medium-8 large-10">
+                <ul class="figure-list">
+                    {% for article in articles %}
+                        {% if article.tags %}
+                            <li>
+                                <a href="{{ SITEURL }}/{{ article.url }}">
+                                    <figure class="{{ article.category.slug }}" data-highlight-class="{% if loop.index is divisibleby(2) %}highlight-red{% else %}highlight-blue{% endif %}">
+                                        <figcaption>{{ article.title }}</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="cell medium-4 large-2">
+                <ul class="menu vertical label-list">
+                    {% for (category, articles) in categories|sort(attribute='0.slug') %}
+                        <li><a href="{{ SITEURL }}/{{ category.url }}" class="{{ category.slug }}" data-highlight-class="{% if loop.index is divisibleby(2) %}highlight-red{% else %}highlight-blue{% endif %}">{{ category }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
       </div>
     </div>
   </div>
@@ -29,5 +42,6 @@
   {% include '_base_scripts.html' %}
   {% include '_go_to_landing_script.html' %}
   {% include '_scrolling_script.html' %}
+  {% include '_explore_script.html' %}
 </body>
 {% endblock body %}
