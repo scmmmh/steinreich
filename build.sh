@@ -7,6 +7,7 @@ then
 fi
 
 git pull
+rm -rf node_modules
 yarn install --frozen-lockfile --check-files --non-interactive
 node_modules/.bin/gulp
 export PIPENV_VENV_IN_PROJECT=True
