@@ -5,7 +5,7 @@ Herodas, Mimiamben 4, 20-34
 :date: 2019-09-09
 :category: (Menschen-)Bilder aus Stein
 :tags: (Menschen-)Bilder aus Stein, Statue, In Stein gemeißelt, Epigraphik, Stein – Technik – Arbeit, (Hyper-)Realismus, Praxiteles
-:images: statue_asklepios_kos.jpg,Vatikanische Museen Museo Gregoriano Profano,Allie Caulfield,https://flic.kr/p/57dDAs
+:images: statue_asklepios_kos
 
 .. class:: original greek
 

@@ -30,7 +30,11 @@
               {% for image in article.images %}
                 <li class="orbit-slide is-active">
                   <figure class="orbit-figure">
-                    <img class="orbit-image" src="{{ SITEURL }}/images/{{ image[0] }}" alt="Photo of a stone">
+                    <picture>
+                      <source media="(min-width: 1024px)" srcset="{{ SITEURL }}/{{ image.full }}" />
+                      <source media="(min-width: 640px)" srcset="{{ SITEURL }}/{{ image.medium }}" />
+                      <img class="orbit-image" src="{{ SITEURL }}/{{ image.small }}" alt="Photo of a stone">
+                    </picture>
                     <figcaption class="orbit-caption">
                       <span>{{ image[1] }}</span>
                       <span><a href="{{ image[3] }}" target="_blank" rel="noopener">{{ image[2] }}</a></span>
