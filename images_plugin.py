@@ -22,7 +22,7 @@ class ImageGenerator(Generator):
         self.static_images = {}
         found_files = self.get_files(self.settings['IMAGE_PATHS'],
                                      exclude=self.settings['IMAGE_EXCLUDES'],
-                                     extensions=['.jpg'])
+                                     extensions=['jpg'])
         for filename in found_files:
             name, extension = os.path.splitext(os.path.basename(filename))
             self.static_images[name] = {'_source': os.path.join(self.settings['PATH'], filename),
