@@ -21,7 +21,7 @@
                       <figure class="{{ article.tags|map(attribute='slug')|reject('==', category.slug)|join(' ') }}" data-highlight-class="{% if loop.index is divisibleby(2) %}highlight-red{% else %}highlight-blue{% endif %}">
                         {% if article.images %}
                           <picture>
-                            <img src="{{ SITEURL }}/{{ article.images[0].thumbnail }}" />
+                            <img src="{{ SITEURL }}/{{ article.images[0].thumbnail.url }}" />
                           </picture>
                         {% endif %}
                         <figcaption>{{ article.title }}</figcaption>

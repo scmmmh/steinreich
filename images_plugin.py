@@ -8,8 +8,26 @@ import subprocess
 
 from itertools import chain
 from pelican import signals, contents
-from pelican.generators import Generator
+from pelican.generators import Generator, ArticlesGenerator
 from pelican.utils import copy
+
+
+class StaticImage(object):
+
+    def __init__(self, base_path, filename):
+        self.source = os.path.join(base_path, filename)
+        self.base = os.path.split(filename)[0]
+        self.full = StaticImageVersion(filename, 'full')
+        self.medium = StaticImageVersion(filename, 'medium')
+        self.small = StaticImageVersion(filename, 'small')
+        self.thumbnail = StaticImageVersion(filename, 'thumbnail')
+
+
+class StaticImageVersion(object):
+
+    def __init__(self, filename, size):
+        self.filename = '{0}-{2}{1}'.format(*os.path.splitext(os.path.basename(filename)), size)
+        self.url = '/images/{0}-{2}{1}'.format(*os.path.splitext(os.path.basename(filename)), size)
 
 
 class ImageGenerator(Generator):
@@ -25,33 +43,38 @@ class ImageGenerator(Generator):
                                      extensions=['jpg'])
         for filename in found_files:
             name, extension = os.path.splitext(os.path.basename(filename))
-            self.static_images[name] = {'_source': os.path.join(self.settings['PATH'], filename),
-                                        '_basepath': os.path.split(filename)[0],
-                                        'full': '{0}-full{1}'.format(name, extension),
-                                        'medium': '{0}-medium{1}'.format(name, extension),
-                                        'small': '{0}-small{1}'.format(name, extension),
-                                        'thumbnail': '{0}-thumbnail{1}'.format(name, extension)}
+            #self.static_images[name] = {'_source': os.path.join(self.settings['PATH'], filename),
+            #                            '_basepath': os.path.split(filename)[0],
+            #                            'full': '{0}-full{1}'.format(name, extension),
+            #                            'medium': '{0}-medium{1}'.format(name, extension),
+            #                            'small': '{0}-small{1}'.format(name, extension),
+            #                            'thumbnail': '{0}-thumbnail{1}'.format(name, extension)}
+            self.static_images[name] = StaticImage(self.settings['PATH'], filename)
         self._update_context(('static_images',))
 
     def generate_output(self, writer):
         for image in self.static_images.values():
-            os.makedirs(os.path.join(self.output_path, image['_basepath']), exist_ok=True)
-            copy(image['_source'], os.path.join(self.output_path, image['_basepath'], image['full']))
-            subprocess.run(['convert', image['_source'], '-resize', '1024x1024', os.path.join(self.output_path, image['_basepath'], image['medium'])])
-            subprocess.run(['convert', image['_source'], '-resize', '640x640', os.path.join(self.output_path, image['_basepath'], image['small'])])
-            subprocess.run(['convert', image['_source'], '-resize', '240x', os.path.join(self.output_path, image['_basepath'], image['thumbnail'])])
+            pass
+            os.makedirs(os.path.join(self.output_path, image.base), exist_ok=True)
+            copy(image.source, os.path.join(self.output_path, image.base, image.full.filename))
+            subprocess.run(['convert', image.source, '-resize', '1024x1024', os.path.join(self.output_path, image.base, image.medium.filename)])
+            subprocess.run(['convert', image.source, '-resize', '640x640', os.path.join(self.output_path, image.base, image.small.filename)])
+            subprocess.run(['convert', image.source, '-resize', '240x', os.path.join(self.output_path, image.base, image.thumbnail.filename)])
 
 
-def preprocess_images(generator):
+def preprocess_images(generators):
     """Adds ``order``, ``parents``, and ``children`` attributes to all
     pages.
     """
-    for article in generator.articles:
+    article_generator = [g for g in generators if isinstance(g, ArticlesGenerator)][0]
+    image_generator = [g for g in generators if isinstance(g, ImageGenerator)][0]
+    for article in article_generator.articles:
         if hasattr(article, 'images'):
-            article.images = [{'full': 'images/{0}-full.jpg'.format(name.strip()),
-                               'medium': 'images/{0}-medium.jpg'.format(name.strip()),
-                               'small': 'images/{0}-small.jpg'.format(name.strip()),
-                               'thumbnail': 'images/{0}-thumbnail.jpg'.format(name.strip())} for name in article.images.split(',')]
+            article.images = [image_generator.static_images[name] for name in article.images.split(',') if name in image_generator.static_images]
+    #        article.images = [{'full': 'images/{0}-full.jpg'.format(name.strip()),
+    #                           'medium': 'images/{0}-medium.jpg'.format(name.strip()),
+    #                           'small': 'images/{0}-small.jpg'.format(name.strip()),
+    #                           'thumbnail': 'images/{0}-thumbnail.jpg'.format(name.strip())} for name in article.images.split(',')]
 
 
 def get_generator(pelican_object):
@@ -71,4 +94,4 @@ def register():
     """Registers the processing callbacks."""
     signals.initialized.connect(add_default_settings)
     signals.get_generators.connect(get_generator)
-    signals.article_generator_finalized.connect(preprocess_images)
+    signals.all_generators_finalized.connect(preprocess_images)
