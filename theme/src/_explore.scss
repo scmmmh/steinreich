@@ -16,7 +16,6 @@
                     width: rem-calc(240);
                     height: rem-calc(135);
                     box-sizing: border-box;
-                    padding: $global-padding/2;
                     margin: $global-margin/2;
                     background: $light-gray;
                     box-shadow: 0 0 10px $white;
@@ -30,6 +29,21 @@
                         box-shadow: 0 0 10px $red;
                     }
 
+                    picture {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        overflow: hidden;
+
+                        img {
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+
                     figcaption {
                         position: absolute;
                         left: 0;
@@ -39,6 +53,7 @@
                         padding: $global-padding/2;
                         background: rgba($black, 0.5);
                         color: $white;
+                        font-size: rem-calc(12);
                         overflow: hidden;
                         text-overflow: ellipsis;
                         white-space: nowrap;
