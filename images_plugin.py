@@ -3,6 +3,7 @@
 Pelican plugin to pre-process the images attribute
 ##################################################
 '''
+import json
 import os
 import subprocess
 
@@ -21,6 +22,9 @@ class StaticImage(object):
         self.medium = StaticImageVersion(filename, 'medium')
         self.small = StaticImageVersion(filename, 'small')
         self.thumbnail = StaticImageVersion(filename, 'thumbnail')
+        self.title = None
+        self.author = None
+        self.url = None
 
 
 class StaticImageVersion(object):
@@ -43,13 +47,13 @@ class ImageGenerator(Generator):
                                      extensions=['jpg'])
         for filename in found_files:
             name, extension = os.path.splitext(os.path.basename(filename))
-            #self.static_images[name] = {'_source': os.path.join(self.settings['PATH'], filename),
-            #                            '_basepath': os.path.split(filename)[0],
-            #                            'full': '{0}-full{1}'.format(name, extension),
-            #                            'medium': '{0}-medium{1}'.format(name, extension),
-            #                            'small': '{0}-small{1}'.format(name, extension),
-            #                            'thumbnail': '{0}-thumbnail{1}'.format(name, extension)}
             self.static_images[name] = StaticImage(self.settings['PATH'], filename)
+            if os.path.exists(os.path.join(self.settings['PATH'], filename.replace('.jpg', '.json'))):
+                with open(os.path.join(self.settings['PATH'], filename.replace('.jpg', '.json'))) as in_f:
+                    data = json.load(in_f)
+                    self.static_images[name].title = data['title']
+                    self.static_images[name].author = data['author']
+                    self.static_images[name].url = data['url']
         self._update_context(('static_images',))
 
     def generate_output(self, writer):
@@ -71,10 +75,6 @@ def preprocess_images(generators):
     for article in article_generator.articles:
         if hasattr(article, 'images'):
             article.images = [image_generator.static_images[name] for name in article.images.split(',') if name in image_generator.static_images]
-    #        article.images = [{'full': 'images/{0}-full.jpg'.format(name.strip()),
-    #                           'medium': 'images/{0}-medium.jpg'.format(name.strip()),
-    #                           'small': 'images/{0}-small.jpg'.format(name.strip()),
-    #                           'thumbnail': 'images/{0}-thumbnail.jpg'.format(name.strip())} for name in article.images.split(',')]
 
 
 def get_generator(pelican_object):

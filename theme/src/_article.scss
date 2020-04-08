@@ -43,14 +43,9 @@
         > .original {
             order: 1;
             font-family: $header-font-family;
-            font-size: $paragraph-font-size;
+            font-size: $paragraph-font-size*1.1;
             line-height: $paragraph-lineheight;
             margin-bottom: 0;
-
-            @include breakpoint(medium) {
-                font-size: $paragraph-font-size * 1.2;
-                line-height: $paragraph-lineheight * 1.2;
-            }
         }
         > h1 {
             order: 2;
@@ -67,11 +62,8 @@
         }
         > .translation {
             order: 3;
-
-            @include breakpoint(medium) {
-                font-size: $paragraph-font-size * 1.2;
-                line-height: $paragraph-lineheight * 1.2;
-            }
+            font-size: $paragraph-font-size;
+            line-height: $paragraph-lineheight;
         }
         > .translation-source {
             order: 4;

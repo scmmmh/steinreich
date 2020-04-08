@@ -1,7 +1,19 @@
 .image-detail {
     .orbit-caption {
+        font-size: $paragraph-font-size;
+
         span {
             display: block;
+
+            &:last-child {
+                text-align: right;
+                font-size: $cite-font-size;
+
+                &::before {
+                    content: '\2014';
+                    padding-right: 0.3rem;
+                }
+            }
 
             a {
                 color: $light-gray;
