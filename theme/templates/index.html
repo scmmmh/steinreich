@@ -26,47 +26,53 @@
       <div class="cell small-12 medium-6">
         <div class="orbit snippet" role="region" aria-label="Stone Samples" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
           <ul class="orbit-container">
-            <li class="orbit-slide is-active">
-              <figure class="orbit-figure">
-                <a href="">
-                  <img class="orbit-image" src="https://proxy.europeana.eu/2022608/SUM_SUM_01433?api_url=https%3A%2F%2Fapi.europeana.eu%2Fapi&view=http%3A%2F%2Fmm.dimu.no%2Fimage%2F012uL2kRFSe2%3Fdimension%3D800x800" alt="Photo of a stone">
-                  <figcaption class="orbit-caption">
-                    <span>moturaque duros verba queror silices</span>
-                    <span>ich klage mit Worten, die harte Steine erweichen könnten.</span>
-                    <span>Ov. met. 9, 303</span>
-                  </figcaption>
-                </a>
-              </figure>
-            </li>
-            <li class="orbit-slide">
-              <figure class="orbit-figure">
-                <a href="">
-                  <img class="orbit-image" src="https://proxy.europeana.eu/2022608/SUM_SUM_00291?api_url=https%3A%2F%2Fapi.europeana.eu%2Fapi&view=http%3A%2F%2Fmm.dimu.no%2Fimage%2F022uL2kKLAUV%3Fdimension%3D800x800" alt="Photo of a stone">
-                  <figcaption class="orbit-caption">
-                    <span>aut quis est ex vobis homo quem si petierit filius suus panem, numquid lapidem porriget ei?</span>
-                    <span>Welcher ist unter euch Menschen, so ihn sein Sohn bittet um Brot, der ihm einen Stein biete?</span>
-                    <span>Matth. 7,9-10</span>
-                  </figcaption>
-                </a>
-              </figure>
-            </li>
-            <li class="orbit-slide">
-              <figure class="orbit-figure">
-                <a href="">
-                  <img class="orbit-image" src="https://proxy.europeana.eu/2048429/item_OSHKBSHCNZUMQEZBYNEO6V2Z3YHTONSN?api_url=https%3A%2F%2Fapi.europeana.eu%2Fapi&view=http%3A%2F%2Fresources.digicult-museen.net%2Fdam%2Fprovided_image%2Fm57d2fcaa33fcd" alt="Photo of a stone">
-                  <figcaption class="orbit-caption">
-                    <span class="greek">κρᾶτ᾽ ἐμὸν τόδ᾽ αὐτίκα πέτρᾳ πέτρας ἄνωθεν αἱμάξω πεσών</span>
-                    <span>Ich werde mir gleich den Kopf blutig am Felsen zerschlagen, wenn ich mich vom Felsen stürze</span>
-                    <span>Philoktet 1001f</span>
-                  </figcaption>
-                </a>
-              </figure>
-            </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  <script id="orbit-images" type="application/json">
+  {{ articles|landing_page_images|tojson }}
+  </script>
+  <script>
+  const baseImages = JSON.parse(document.getElementById('orbit-images').innerHTML);
+  let images = [];
+  while (baseImages.length > 0 && images.length < 10) {
+      const idx = Math.floor(Math.random() * baseImages.length);
+      images = images.concat(baseImages.splice(idx, 1));
+  }
+  const orbitContainer = document.querySelector('.orbit-container');
+  for (let idx = 0; idx < images.length; idx++) {
+      const slide = document.createElement('li');
+      slide.classList.add('orbit-slide');
+      const figure = document.createElement('figure');
+      figure.classList.add('orbit-figure');
+      slide.appendChild(figure);
+      const link = document.createElement('a');
+      link.setAttribute('href', '{{ SITEURL }}/' + images[idx].url);
+      figure.appendChild(link);
+      const img = document.createElement('img');
+      img.classList.add('orbit-image');
+      img.setAttribute('src', '{{ SITEURL }}/' + images[idx].small);
+      link.appendChild(img);
+      const figcaption = document.createElement('figcaption');
+      figcaption.classList.add('orbit-caption');
+      link.append(figcaption);
+      let textLine = document.createElement('span');
+      textLine.innerHTML = images[idx].original;
+      if (images[idx].isGreek) {
+          textLine.classList.add('greek');
+      }
+      figcaption.appendChild(textLine);
+      textLine = document.createElement('span');
+      textLine.innerHTML = images[idx].translation;
+      figcaption.appendChild(textLine);
+      textLine = document.createElement('span');
+      textLine.innerHTML = images[idx].title;
+      figcaption.appendChild(textLine);
+      orbitContainer.appendChild(slide);
+  }
+  </script>
   {% include '_footer.html' %}
   {% include '_base_scripts.html' %}
 </body>
