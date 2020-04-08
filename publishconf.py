@@ -13,5 +13,6 @@ from pelicanconf import *
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://steinreich.uzi.uni-halle.de'
 RELATIVE_URLS = False
+DEVELOPMENT = False
 
 DELETE_OUTPUT_DIRECTORY = True
