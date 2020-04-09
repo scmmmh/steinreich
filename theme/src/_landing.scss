@@ -6,6 +6,10 @@
     .grid-x {
         height: 100vh;
 
+        @include breakpoint(small only) {
+            height: 90vh;
+        }
+
         > .grid-y {
             justify-content: center;
             align-items: center;
