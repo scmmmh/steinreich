@@ -2,3 +2,5 @@ node_modules
 output
 theme/static/css
 theme/static/js
+__pycache__
+.venv
