@@ -61,9 +61,9 @@ class ImageGenerator(Generator):
             pass
             os.makedirs(os.path.join(self.output_path, image.base), exist_ok=True)
             copy(image.source, os.path.join(self.output_path, image.base, image.full.filename))
-            subprocess.run(['convert', image.source, '-resize', '1024x1024', os.path.join(self.output_path, image.base, image.medium.filename)])
-            subprocess.run(['convert', image.source, '-resize', '640x640', os.path.join(self.output_path, image.base, image.small.filename)])
-            subprocess.run(['convert', image.source, '-resize', '240x', os.path.join(self.output_path, image.base, image.thumbnail.filename)])
+            subprocess.run(['gm', 'convert', image.source, '-resize', '1024x1024', os.path.join(self.output_path, image.base, image.medium.filename)])
+            subprocess.run(['gm', 'convert', image.source, '-resize', '640x640', os.path.join(self.output_path, image.base, image.small.filename)])
+            subprocess.run(['gm', 'convert', image.source, '-resize', '240x', os.path.join(self.output_path, image.base, image.thumbnail.filename)])
 
 
 def preprocess_images(generators):
