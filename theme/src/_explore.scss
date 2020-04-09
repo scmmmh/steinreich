@@ -1,81 +1,122 @@
 .tags, .categories {
-    @include breakpoint(medium) {
+    .figure-list {
+        li {
+            list-style-type: none;
+
+            figure {
+                position: relative;
+                display: block;
+                width: rem-calc(240);
+                height: rem-calc(135);
+                box-sizing: border-box;
+                margin: $global-margin/2;
+                background: $light-gray;
+                box-shadow: 0 0 10px $white;
+                transition: 0.3s box-shadow;
+
+                &.highlight-blue {
+                    box-shadow: 0 0 10px $blue;
+                }
+
+                &.highlight-red {
+                    box-shadow: 0 0 10px $red;
+                }
+
+                picture {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    overflow: hidden;
+
+                    img {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+
+                figcaption {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: $global-padding/2;
+                    background: rgba($black, 0.5);
+                    color: $white;
+                    font-size: rem-calc(12);
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+
+            &:nth-child(2n+1) {
+                figure {
+                    &:hover {
+                        box-shadow: 0 0 10px $blue;
+                    }
+                }
+            }
+
+            &:nth-child(2n) {
+                figure {
+                    &:hover {
+                        box-shadow: 0 0 10px $red;
+                    }
+                }
+            }
+        }
+    }
+
+    .label-list {
+        li {
+            a {
+                &.highlight-blue {
+                    color: $blue;
+                }
+
+                &.highlight-red {
+                    color: $red;
+                }
+            }
+
+            &:nth-child(2n+1) {
+                a {
+                    &:hover {
+                        color: $blue;
+                    }
+                }
+            }
+
+            &:nth-child(2n) {
+                a {
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint(small only) {
+        .figure-list {
+            display: flex;
+            flex-direction: row;
+            width: rem-calc(240);
+            overflow: hidden;
+        }
+    }
+
+    @include breakpoint(large) {
         .figure-list {
             display: flex;
             margin: 0;
             padding: 0;
             flex-direction: row;
             flex-wrap: wrap;
-
-            li {
-                list-style-type: none;
-
-                figure {
-                    position: relative;
-                    display: block;
-                    width: rem-calc(240);
-                    height: rem-calc(135);
-                    box-sizing: border-box;
-                    margin: $global-margin/2;
-                    background: $light-gray;
-                    box-shadow: 0 0 10px $white;
-                    transition: 0.3s box-shadow;
-
-                    &.highlight-blue {
-                        box-shadow: 0 0 10px $blue;
-                    }
-
-                    &.highlight-red {
-                        box-shadow: 0 0 10px $red;
-                    }
-
-                    picture {
-                        display: block;
-                        width: 100%;
-                        height: 100%;
-                        position: relative;
-                        overflow: hidden;
-
-                        img {
-                            position: absolute;
-                            left: 50%;
-                            top: 50%;
-                            transform: translate(-50%, -50%);
-                        }
-                    }
-
-                    figcaption {
-                        position: absolute;
-                        left: 0;
-                        bottom: 0;
-                        width: 100%;
-                        box-sizing: border-box;
-                        padding: $global-padding/2;
-                        background: rgba($black, 0.5);
-                        color: $white;
-                        font-size: rem-calc(12);
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        white-space: nowrap;
-                    }
-                }
-
-                &:nth-child(2n+1) {
-                    figure {
-                        &:hover {
-                            box-shadow: 0 0 10px $blue;
-                        }
-                    }
-                }
-
-                &:nth-child(2n) {
-                    figure {
-                        &:hover {
-                            box-shadow: 0 0 10px $red;
-                        }
-                    }
-                }
-            }
         }
 
         .label-list {
@@ -88,30 +129,6 @@
                 a {
                     padding-top: rem-calc(5);
                     padding-bottom: rem-calc(5);
-
-                    &.highlight-blue {
-                        color: $blue;
-                    }
-
-                    &.highlight-red {
-                        color: $red;
-                    }
-                }
-
-                &:nth-child(2n+1) {
-                    a {
-                        &:hover {
-                            color: $blue;
-                        }
-                    }
-                }
-
-                &:nth-child(2n) {
-                    a {
-                        &:hover {
-                            color: $red;
-                        }
-                    }
                 }
             }
         }

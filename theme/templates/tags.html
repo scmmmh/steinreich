@@ -11,8 +11,8 @@
     <div class="grid-x">
       <div class="cell small-12">
         <h1>Entdecken</h1>
-        <div class="grid-x hide-for-small">
-          <div class="cell medium-9 large-10">
+        <div class="grid-x">
+          <div class="cell small-12 large-auto">
             <ul class="figure-list">
               {% for article in articles %}
                 {% if article.tags %}
@@ -32,7 +32,7 @@
               {% endfor %}
             </ul>
           </div>
-          <div class="cell medium-3 large-2">
+          <div class="cell small-12 large-shrink">
             <ul class="menu vertical label-list">
               {% for (tag, articles) in tags|sort(attribute='0.slug') %}
                 <li><a href="{{ SITEURL }}/{{ tag.url }}" class="{{ tag.slug }}" data-highlight-class="{% if loop.index is divisibleby(2) %}highlight-red{% else %}highlight-blue{% endif %}">{{ tag }}</a></li>
