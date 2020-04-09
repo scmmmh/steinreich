@@ -2,56 +2,106 @@
 const labelList = document.querySelector('.label-list');
 const figureList = document.querySelector('.figure-list');
 
-function mouseOverLabel(ev) {
-    const labelId = ev.target.getAttribute('class');
-    const highlightClass = ev.target.getAttribute('data-highlight-class');
-    const highlightElements = figureList.querySelectorAll('figure.' + labelId);
-    for (let idx = 0; idx < highlightElements.length; idx++) {
-        highlightElements[idx].classList.add(highlightClass);
-    }
-}
-function mouseOutLabel(ev) {
-    const labelId = ev.target.getAttribute('class');
-    const highlightElements = figureList.querySelectorAll('figure.' + labelId);
-    for (let idx = 0; idx < highlightElements.length; idx++) {
-        highlightElements[idx].classList.remove('highlight-red');
-        highlightElements[idx].classList.remove('highlight-blue');
-    }
-}
+if (Foundation.MediaQuery.current === 'small') {
+    let startX = null;
+    let startY = null;
+    let offsetX = null;
+    let offsetY = null;
 
-function mouseOverFigure(ev) {
-    const figure = ev.target.closest('figure');
-    const selector = [];
-    for (let idx = 0; idx < figure.classList.length; idx++) {
-        selector.push('a.' + figure.classList[idx]);
+    function showCategories() {
+        const imgIdx = Math.floor(figureList.scrollLeft / figureList.clientWidth);
+        let figure = figureList.querySelector('li:nth-child(' + (imgIdx + 1) + ') figure');
+        let links = labelList.querySelectorAll('a');
+        for (let idx1 = 0; idx1 < links.length; idx1++) {
+            let found = false;
+            for (let idx2 = 0; idx2 < figure.classList.length; idx2++) {
+                if (links[idx1].classList.contains(figure.classList[idx2])) {
+                    found = true;
+                    break;
+                }
+            }
+            if (found) {
+                links[idx1].parentElement.classList.remove('hidden');
+            } else {
+                links[idx1].parentElement.classList.add('hidden');
+            }
+        }
     }
-    const highlightClass = figure.getAttribute('data-highlight-class');
-    const highlightElements = labelList.querySelectorAll(selector.join(','));
-    for (let idx = 0; idx < highlightElements.length; idx++) {
-        highlightElements[idx].classList.add(highlightClass);
-    }
-}
-function mouseOutFigure(ev) {
-    const figure = ev.target.closest('figure');
-    const selector = [];
-    for (let idx = 0; idx < figure.classList.length; idx++) {
-        selector.push('a.' + figure.classList[idx]);
-    }
-    const highlightElements = labelList.querySelectorAll(selector.join(','));
-    for (let idx = 0; idx < highlightElements.length; idx++) {
-        highlightElements[idx].classList.remove('highlight-red');
-        highlightElements[idx].classList.remove('highlight-blue');
-    }
-}
 
-const labelElements = labelList.querySelectorAll('a');
-for (let idx = 0; idx < labelElements.length; idx++) {
-    labelElements[idx].addEventListener('mouseover', mouseOverLabel);
-    labelElements[idx].addEventListener('mouseout', mouseOutLabel);
-}
-const figureElements = figureList.querySelectorAll('figure');
-for (let idx = 0; idx < figureElements.length; idx++) {
-    figureElements[idx].addEventListener('mouseover', mouseOverFigure);
-    figureElements[idx].addEventListener('mouseout', mouseOutFigure);
+    figureList.addEventListener('touchstart', function(ev) {
+        if (ev.touches && ev.touches[0]) {
+            startX = ev.touches[0].clientX;
+            startY = ev.touches[0].clientY;
+        }
+    });
+    figureList.addEventListener('touchmove', function(ev) {
+        if (ev.touches && ev.touches[0]) {
+            offsetX = startX - ev.touches[0].clientX;
+            offsetY = startY - ev.touches[0].clientY;
+        }
+    });
+    figureList.addEventListener('touchend', function(ev) {
+        if (Math.abs(offsetY) < 100) {
+            if (offsetX <= -100) {
+                femtoTween.tween(figureList.scrollLeft, figureList.scrollLeft - figureList.clientWidth, (value) => { figureList.scrollLeft = value; }, {done: showCategories});
+            } else if (offsetX >= 100) {
+                femtoTween.tween(figureList.scrollLeft, figureList.scrollLeft + figureList.clientWidth, (value) => { figureList.scrollLeft = value; }, {done: showCategories});
+            }
+        }
+    });
+    showCategories();
+} else if (Foundation.MediaQuery.atLeast('large')) {
+    function mouseOverLabel(ev) {
+        const labelId = ev.target.getAttribute('class');
+        const highlightClass = ev.target.getAttribute('data-highlight-class');
+        const highlightElements = figureList.querySelectorAll('figure.' + labelId);
+        for (let idx = 0; idx < highlightElements.length; idx++) {
+            highlightElements[idx].classList.add(highlightClass);
+        }
+    }
+    function mouseOutLabel(ev) {
+        const labelId = ev.target.getAttribute('class');
+        const highlightElements = figureList.querySelectorAll('figure.' + labelId);
+        for (let idx = 0; idx < highlightElements.length; idx++) {
+            highlightElements[idx].classList.remove('highlight-red');
+            highlightElements[idx].classList.remove('highlight-blue');
+        }
+    }
+
+    function mouseOverFigure(ev) {
+        const figure = ev.target.closest('figure');
+        const selector = [];
+        for (let idx = 0; idx < figure.classList.length; idx++) {
+            selector.push('a.' + figure.classList[idx]);
+        }
+        const highlightClass = figure.getAttribute('data-highlight-class');
+        const highlightElements = labelList.querySelectorAll(selector.join(','));
+        for (let idx = 0; idx < highlightElements.length; idx++) {
+            highlightElements[idx].classList.add(highlightClass);
+        }
+    }
+    function mouseOutFigure(ev) {
+        const figure = ev.target.closest('figure');
+        const selector = [];
+        for (let idx = 0; idx < figure.classList.length; idx++) {
+            selector.push('a.' + figure.classList[idx]);
+        }
+        const highlightElements = labelList.querySelectorAll(selector.join(','));
+        for (let idx = 0; idx < highlightElements.length; idx++) {
+            highlightElements[idx].classList.remove('highlight-red');
+            highlightElements[idx].classList.remove('highlight-blue');
+        }
+    }
+
+    const labelElements = labelList.querySelectorAll('a');
+    for (let idx = 0; idx < labelElements.length; idx++) {
+        labelElements[idx].addEventListener('mouseover', mouseOverLabel);
+        labelElements[idx].addEventListener('mouseout', mouseOutLabel);
+    }
+    const figureElements = figureList.querySelectorAll('figure');
+    for (let idx = 0; idx < figureElements.length; idx++) {
+        figureElements[idx].addEventListener('mouseover', mouseOverFigure);
+        figureElements[idx].addEventListener('mouseout', mouseOutFigure);
+    }
 }
 </script>

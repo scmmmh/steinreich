@@ -28,7 +28,8 @@ gulp.task('js', function(cb) {
         gulp.src([
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/what-input/dist/what-input.min.js',
-            'node_modules/foundation-sites/dist/js/foundation.min.js'
+            'node_modules/foundation-sites/dist/js/foundation.min.js',
+            'node_modules/femtotween//dist/femtoTween.umd.js'
         ]),
         concat('scripts.js'),
         gulp.dest('theme/static/js')
