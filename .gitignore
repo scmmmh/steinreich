@@ -4,3 +4,4 @@ theme/static/css
 theme/static/js
 __pycache__
 .venv
+.vscode
