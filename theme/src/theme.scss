@@ -3,29 +3,8 @@
 @import 'foundation';
 @import 'motion-ui';
 
-@include foundation-everything();
-@include motion-ui-transitions;
-@include motion-ui-animations;
-
-.greek {
-    font-family: 'GFS Neohellenic', serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    &.greek {
-        text-transform: uppercase;
-    }
-}
-
-a {
-    transition: color 0.3s;
-}
-
-.grid-container {
-    margin-bottom: $global-margin * 2;
-}
-
 /* Generic styles */
+@import 'base';
 @import 'generic';
 @import 'snippet';
 @import 'footer';

@@ -2,6 +2,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
+    cleanCSS = require('gulp-clean-css'),
     pump = require('pump');
 
 gulp.task('css', function(cb) {
@@ -19,6 +20,7 @@ gulp.task('css', function(cb) {
         autoprefixer({
             cascade: false
         }),
+        cleanCSS(),
         gulp.dest('theme/static/css')
     ], cb);
 });

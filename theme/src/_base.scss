@@ -1,0 +1,23 @@
+$global-flexbox: true !global;
+$xy-grid: true !global;
+
+@include foundation-global-styles;
+@include foundation-forms;
+@include foundation-typography;
+
+@include foundation-xy-grid-classes;
+
+@include foundation-menu;
+
+@include foundation-orbit;
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+@include foundation-top-bar;
+
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+
+.grid-container {
+    margin-bottom: $global-margin * 2;
+}
