@@ -8,8 +8,8 @@
             figure {
                 position: relative;
                 display: block;
-                width: rem-calc(240);
-                height: rem-calc(135);
+                width: rem-calc(220);
+                height: rem-calc(124);
                 box-sizing: border-box;
                 margin: $global-margin/2;
                 background: $light-gray;
@@ -123,6 +123,21 @@
                     }
                 }
             }
+        }
+
+        .label-list {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+
+    @include breakpoint(medium only) {
+        .figure-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
         }
 
         .label-list {
