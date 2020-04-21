@@ -1,4 +1,11 @@
 .image-detail {
+    figure {
+        picture {
+            display: block;
+            max-height: 75vh;
+            overflow: hidden;
+        }
+    }
     .orbit-caption {
         font-size: $paragraph-font-size;
 

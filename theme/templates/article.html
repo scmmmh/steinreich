@@ -9,22 +9,8 @@
   {% include '_header.html' %}
   <div class="grid-container">
     <div class="grid-x">
-      <div class="cell small-12 {% if article.images %}large-5{% else %}large-9{% endif %} grid-y texts">
-        <h1>{{ article.title }}</h1>
-        {{ article.content }}
-      </div>
-      <div class="cell small-12 large-3 metadata">
-        <ul class="menu vertical">
-          <li><a href="{{ article.category.url }}">{{ article.category }}</a></li>
-          {% for tag in article.tags %}
-            {% if tag.slug != article.category.slug %}
-              <li><a href="{{ tag.url }}">{{ tag | escape }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
       {% if article.images %}
-        <div class="cell small-12 large-4 images">
+        <div class="cell small-12 large-order-3 images">
           <div class="orbit image-detail" role="region" aria-label="Stone Samples" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
             <ul class="orbit-container">
               {% for image in article.images %}
@@ -46,6 +32,21 @@
           </div>
         </div>
       {% endif %}
+      <div class="cell small-12 large-9 texts">
+        <h1>{{ article.title }}</h1>
+        {{ article.content }}
+        <p class="original-source">{{ article.title }}</p>
+      </div>
+      <div class="cell small-12 large-3 metadata">
+        <ul class="menu vertical">
+          <li><a href="{{ article.category.url }}">{{ article.category }}</a></li>
+          {% for tag in article.tags %}
+            {% if tag.slug != article.category.slug %}
+              <li><a href="{{ tag.url }}">{{ tag | escape }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
   {% include '_footer.html' %}

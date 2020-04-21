@@ -10,6 +10,103 @@
         margin-bottom: rem-calc(110);
     }
 
+    .texts {
+        display: flex;
+        flex-direction: column;
+
+        > * {
+            box-sizing: border-box;
+        }
+
+        > h1 {
+            order: 0;
+        }
+
+        > .original {
+            font-family: $header-font-family;
+            font-size: $paragraph-font-size*1.1;
+            line-height: $paragraph-lineheight;
+            margin-bottom: 0;
+            order: 3;
+
+            &.greek {
+                font-family: 'GFS Neohellenic';
+                font-size: $paragraph-font-size*1.2;
+            }
+        }
+
+        > .original-source {
+            font-family: $body-font-family;
+            font-size: $cite-font-size;
+            text-align: right;
+            margin-bottom: $paragraph-margin-bottom * 2;
+            padding-left: 25%;
+            order: 4;
+
+            &::before {
+                content: '\2014';
+                padding-right: 0.3rem;
+            }
+        }
+
+        > .translation {
+            font-size: $paragraph-font-size;
+            line-height: $paragraph-lineheight;
+            order: 1;
+        }
+
+        > .translation-source {
+            font-family: $body-font-family;
+            font-size: $cite-font-size;
+            text-align: right;
+            margin-bottom: $paragraph-margin-bottom * 2;
+            padding-left: 25%;
+            order: 2;
+
+            &::before {
+                content: '\2014';
+                padding-right: 0.3rem;
+            }
+        }
+
+        @include breakpoint(large) {
+            padding-right: $global-padding * 2;
+        }
+    }
+
+    .metadata {
+        border-top: 1px solid $light-gray;
+
+        ul {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        @include breakpoint(large) {
+            border-top: 0;
+
+            ul {
+                flex-direction: column;
+
+                li:first-child {
+                    margin-bottom: $global-margin;
+                }
+            }
+        }
+    }
+}
+/*.article {
+    margin-bottom: rem-calc(60);
+    overflow-x: hidden;
+
+    @include breakpoint(medium) {
+        margin-bottom: rem-calc(85);
+    }
+
+    @include breakpoint(large) {
+        margin-bottom: rem-calc(110);
+    }
+
     @include breakpoint(medium down) {
         header {
             margin-bottom: 0;
@@ -30,7 +127,9 @@
     }
 
     .texts {
-        order: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 
         @include breakpoint(large) {
             box-sizing: border-box;
@@ -38,17 +137,21 @@
         }
 
         > * {
-            order: 5;
+            width: 50%;
+            box-sizing: border-box;
+
         }
+
         > .original {
-            order: 1;
+            order: 2;
             font-family: $header-font-family;
             font-size: $paragraph-font-size*1.1;
             line-height: $paragraph-lineheight;
             margin-bottom: 0;
         }
+
         > h1 {
-            order: 2;
+            order: 4;
             font-family: $body-font-family;
             font-size: $cite-font-size;
             text-align: right;
@@ -60,13 +163,15 @@
                 padding-right: 0.3rem;
             }
         }
+
         > .translation {
-            order: 3;
+            order: 1;
             font-size: $paragraph-font-size;
             line-height: $paragraph-lineheight;
         }
+
         > .translation-source {
-            order: 4;
+            order: 3;
             font-family: $body-font-family;
             font-size: $cite-font-size;
             text-align: right;
@@ -81,7 +186,6 @@
     }
 
     .metadata {
-        order: 3;
         font-size: rem-calc(15);
 
         ul {
@@ -123,8 +227,6 @@
     }
 
     .images {
-        order: 3;
-
         @include breakpoint(large) {
             box-sizing: border-box;
             padding-right: $global-padding * 2;
@@ -138,3 +240,4 @@
         }
     }
 }
+*/
