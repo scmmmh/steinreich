@@ -39,7 +39,8 @@ def landing_page_images(articles):
                                'title': article.metadata['title'],
                                'original': original,
                                'isGreek': is_greek,
-                               'translation': translation})
+                               'translation': translation,
+                               'alt': '{0}: {1}'.format(image.author, image.title)})
     return images
 
 

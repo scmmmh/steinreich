@@ -54,6 +54,7 @@
       const img = document.createElement('img');
       img.classList.add('orbit-image');
       img.setAttribute('src', '{{ SITEURL }}/' + images[idx].small);
+      img.setAttribute('alt', images[idx].alt);
       link.appendChild(img);
       const figcaption = document.createElement('figcaption');
       figcaption.classList.add('orbit-caption');

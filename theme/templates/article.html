@@ -19,7 +19,7 @@
                     <picture>
                       <source media="(min-width: 1024px)" srcset="{{ SITEURL }}/{{ image.full.url }}" />
                       <source media="(min-width: 640px)" srcset="{{ SITEURL }}/{{ image.medium.url }}" />
-                      <img class="orbit-image" src="{{ SITEURL }}/{{ image.small.url }}" alt="Photo of a stone">
+                      <img class="orbit-image" src="{{ SITEURL }}/{{ image.small.url }}" alt="{{ image.author }}: {{ image.title }}" />
                     </picture>
                     <figcaption class="orbit-caption">
                       <span>{{ image.title }}</span>
