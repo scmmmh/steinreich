@@ -21,6 +21,7 @@
                       <figure class="{{ article.tags|map(attribute='slug')|join(' ') }}" data-highlight-class="{% if loop.index is divisibleby(2) %}highlight-red{% else %}highlight-blue{% endif %}">
                         {% if article.images %}
                           <picture>
+                            <source media="(max-width: 640px)" srcset="{{ SITEURL }}/{{ article.images[0].small.url }}" />
                             <img src="{{ SITEURL }}/{{ article.images[0].thumbnail.url }}" alt="{{ article.images[0].author }}: {{ article.images[0].title }}" />
                           </picture>
                         {% endif %}

@@ -100,6 +100,14 @@
                     }
                 }
             }
+
+            @include breakpoint(small only) {
+                order: 1;
+
+                &.highlight {
+                    order: 0;
+                }
+            }
         }
     }
 

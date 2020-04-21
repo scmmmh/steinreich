@@ -7,27 +7,36 @@ if (Foundation.MediaQuery.current === 'small') {
     let startY = null;
     let offsetX = null;
     let offsetY = null;
+    let lastIdx = null;
 
     function showCategories() {
-        const imgIdx = Math.floor(figureList.scrollLeft / figureList.clientWidth);
-        let figure = figureList.querySelector('li:nth-child(' + (imgIdx + 1) + ') figure');
-        let links = labelList.querySelectorAll('a');
-        for (let idx1 = 0; idx1 < links.length; idx1++) {
-            let found = false;
-            for (let idx2 = 0; idx2 < figure.classList.length; idx2++) {
-                if (links[idx1].classList.contains(figure.classList[idx2])) {
-                    found = true;
-                    break;
-                }
+        if (lastIdx !== null) {
+            const figure = figureList.querySelector('li:nth-child(' + (lastIdx + 1) + ') figure');
+            const selector = [];
+            for (let idx = 0; idx < figure.classList.length; idx++) {
+                selector.push('a.' + figure.classList[idx]);
             }
-            if (found) {
-                links[idx1].parentElement.classList.remove('hidden');
-            } else {
-                links[idx1].parentElement.classList.add('hidden');
+            const highlightClass = figure.getAttribute('data-highlight-class');
+            const highlightElements = labelList.querySelectorAll(selector.join(','));
+            for (let idx = 0; idx < highlightElements.length; idx++) {
+                highlightElements[idx].classList.remove(highlightClass);
+                highlightElements[idx].parentElement.classList.remove('highlight');
             }
         }
+        const imgIdx = Math.floor(figureList.scrollLeft / figureList.clientWidth);
+        const figure = figureList.querySelector('li:nth-child(' + (imgIdx + 1) + ') figure');
+        const selector = [];
+        for (let idx = 0; idx < figure.classList.length; idx++) {
+            selector.push('a.' + figure.classList[idx]);
+        }
+        const highlightClass = figure.getAttribute('data-highlight-class');
+        const highlightElements = labelList.querySelectorAll(selector.join(','));
+        for (let idx = 0; idx < highlightElements.length; idx++) {
+            highlightElements[idx].classList.add(highlightClass);
+            highlightElements[idx].parentElement.classList.add('highlight');
+        }
+        lastIdx = imgIdx;
     }
-
     figureList.addEventListener('touchstart', function(ev) {
         if (ev.touches && ev.touches[0]) {
             startX = ev.touches[0].clientX;
