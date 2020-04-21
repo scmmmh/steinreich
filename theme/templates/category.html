@@ -12,7 +12,8 @@
       <div class="cell small-12">
         <h1>{{ category }}</h1>
         <div class="grid-x">
-          <div class="cell small-12 medium-order-2 large-auto large-order-1">
+          <div class="cell small-12 medium-order-2 large-auto large-order-1 figure">
+            <div><button aria-label="Vorhergehender Text" class="prev-article">&#9664;&#xFE0E;</button></div>
             <ul class="figure-list">
               {% for article in articles %}
                 {% if article.tags %}
@@ -32,6 +33,7 @@
                 {% endif %}
               {% endfor %}
             </ul>
+            <div><button aria-label="Nächster Text" class="next-article">&#9654;&#xFE0E;</button></div>
           </div>
           <div class="cell small-12 medium-order-1 large-shrink large-order-1">
             <ul class="menu vertical label-list">

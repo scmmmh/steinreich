@@ -1,4 +1,32 @@
 .tags, .categories {
+    .figure {
+        position: relative;
+
+        div {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+
+            &:first-child {
+                left: $global-padding;
+            }
+
+            &:last-child {
+                right: $global-padding;
+            }
+
+            button {
+                cursor: pointer;
+                color: $white;
+            }
+
+            @include breakpoint(medium) {
+                display: none;
+            }
+        }
+    }
+
     .figure-list {
         margin: 0;
 

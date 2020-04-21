@@ -58,6 +58,12 @@ if (Foundation.MediaQuery.current === 'small') {
             }
         }
     });
+    figureList.parentElement.querySelector('.prev-article').addEventListener('click', function(ev) {
+        femtoTween.tween(figureList.scrollLeft, figureList.scrollLeft - figureList.clientWidth, (value) => { figureList.scrollLeft = value; }, {done: showCategories});
+    });
+    figureList.parentElement.querySelector('.next-article').addEventListener('click', function(ev) {
+        femtoTween.tween(figureList.scrollLeft, figureList.scrollLeft + figureList.clientWidth, (value) => { figureList.scrollLeft = value; }, {done: showCategories});
+    });
     showCategories();
 } else if (Foundation.MediaQuery.atLeast('large')) {
     function mouseOverLabel(ev) {
