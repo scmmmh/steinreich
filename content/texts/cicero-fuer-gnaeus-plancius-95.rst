@@ -1,10 +1,11 @@
-Cicero, Für Gnaeus Plancius 95:
-===============================
+Cicero, Für Gnaeus Plancius 95
+==============================
 
 :slug: cicero-fuer-gnaeus-plancius-95
 :date: 2019-09-13
-:category: Metapher
-:tags: Metapher, Wertlosigkeit, Statue, (Menschen-)Bilder aus Stein, Steingrab und Grabstein
+:category: Grabstein und Steingrab
+:tags: Grabstein und Steingrab, Metapher, Wertlosigkeit, Statue
+:images: grabstele-soldat-bosporanisches-reich
 
 .. class:: original
 

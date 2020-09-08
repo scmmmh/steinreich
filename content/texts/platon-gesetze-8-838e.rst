@@ -1,0 +1,20 @@
+Platon, Gesetze 8, 838e
+=======================
+
+:slug: platon-gesetze-8-838e
+:date: 2020-09-08
+:category: Weg der Steine
+:tags: Weg der Steine, Redewendung / Sprichwort, Vergeblichkeit
+:images: findlinge-ackerflur-tauchaer-endmoraene-bei-liemehna
+
+.. class:: original greek
+
+    εἰς πέτρας τε καὶ λίθους σπείροντας
+
+.. class:: translation
+
+    auf Stein und Felsen säend (ein unnütze Anstrengung)
+
+.. class:: translation-source
+
+    E\ . W.-G.

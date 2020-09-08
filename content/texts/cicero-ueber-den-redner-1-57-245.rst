@@ -3,8 +3,9 @@ Cicero, Über den Redner 1, 57, 245
 
 :slug: cicero-ueber-den-redner-1-57-245
 :date: 2019-09-08
-:category: Redewendung / Sprichwort
-:tags: Redewendung / Sprichwort, Härte, Emotion
+:category: Steinhart und steinalt
+:tags: Steinhart und steinalt, Redewendung / Sprichwort, Härte, Emotion
+:images: pebbles-in-rethymno-s-beach
 
 .. class:: original
 

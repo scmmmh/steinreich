@@ -2,13 +2,12 @@ Herodas, Mimiamben 4, 20-34
 ===========================
 
 :slug: herodas-mimiamben-4-20-34
-:date: 2019-09-09
-:category: (Menschen-)Bilder aus Stein
-:tags: (Menschen-)Bilder aus Stein, Statue, In Stein gemeißelt, Epigraphik, Stein – Technik – Arbeit, (Hyper-)Realismus, Praxiteles
-:images: statue_asklepios_kos
+:date: 2020-09-09
+:category: Bilder aus Stein
+:tags: Bilder aus Stein, Statue, Epigraphik, (Hyper-)Realismus, Praxiteles, Handwerk
+:images: child-goose-glyphothek-munich
 
 .. class:: original greek
-
 
     | […] KO. ἆ, καλῶν, φίλη Κυννοῖ, 
     | ἀγαλμάτων· τίς ἦρα τὴν λίθον ταύτην 

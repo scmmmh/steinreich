@@ -3,8 +3,9 @@ Ovid, Metamorphosen 3,418-9
 
 :slug: ovid-metamorphosen-3-418-9
 :date: 2019-09-13
-:category: Redewendung / Sprichwort
-:tags: Redewendung / Sprichwort, Starrheit, Statue, Versteinerung, (Menschen-)Bilder aus Stein
+:category: Zu Stein geworden – aus Stein geboren
+:tags: Zu Stein geworden – aus Stein geboren, Redewendung / Sprichwort, Starrheit, Statue, Versteinerung
+:images: narcissus-and-echo
 
 .. class:: original
 

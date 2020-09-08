@@ -3,8 +3,9 @@ Plautus, Aulularia (Der Goldtopf) 195
 
 :slug: plautus-aulularia-der-goldtopf-195
 :date: 2019-09-03
-:category: Redewendung / Sprichwort
-:tags: Redewendung / Sprichwort, Wertlosigkeit, Stein und Brot
+:category: Stein und Brot
+:tags: Stein und Brot, Redewendung / Sprichwort, Wertlosigkeit
+:images: statue-einer-kornmahlenden-dienerin
 
 .. class:: original
 

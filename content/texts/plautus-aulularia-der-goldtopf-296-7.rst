@@ -1,16 +1,16 @@
-Plautus, Aulularia (Der Goldtopf) 296-7:
-========================================
+Plautus, Aulularia (Der Goldtopf) 296-7
+=======================================
 
 :slug: plautus-aulularia-der-goldtopf-296-7
 :date: 2019-09-13
-:category: Metapher
-:tags: Metapher, Bimsstein, Trockenheit
+:category: Steinhart und steinalt
+:tags: Steinhart und steinalt, Metapher, Bimsstein, Trockenheit
+:images: pumice-santorini
 
 .. class:: original
 
     | PYTH. Vah. ANTHR. Quid negotist? PYTH. Quid negoti sit rogas?
     | pumex non aeque est aridus atque hic est senex.
-
 
 .. class:: translation
 

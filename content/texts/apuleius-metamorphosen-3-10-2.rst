@@ -3,8 +3,9 @@ Apuleius, Metamorphosen 3, 10, 2
 
 :slug: apuleius-metamporphosen-3-10-2
 :date: 2019-09-13
-:category: Redewendung / Sprichwort
-:tags: Redewendung / Sprichwort, Starrheit, Versteinerung, (Menschen-)Bilder aus Stein
+:category: Bilder aus Stein
+:tags: Bilder aus Stein, Redewendung / Sprichwort, Starrheit, Versteinerung
+:images: venus-mdbk
 
 .. class:: original
 

@@ -3,8 +3,9 @@ Ps.-Aischylos, Der gefesselte Prometheus, 447-453
 
 :slug: ps-aischylos-der-gefesselte-prometheus-447-453
 :date: 2019-09-13
-:category: Stein – Technik – Arbeit
-:tags: Stein – Technik – Arbeit, Kultur, Architektur, Prometheus
+:category: Mensch formt Stein – Stein formt Mensch
+:tags: Mensch formt Stein – Stein formt Mensch, Kultur, Architektur, Prometheus, Handwerk
+:images: modell-einer-steinsaege
 
 .. class:: original greek
 

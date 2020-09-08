@@ -1,10 +1,11 @@
-Catull, Gedichte 23,3-4:
-========================
+Catull, Gedichte 23,3-4
+=======================
 
 :slug: catull-gedichte-23-3-4
 :date: 2019-09-13
-:category: Metapher
-:tags: Metapher, Härte
+:category: Steinhart und steinalt
+:tags: Steinhart und steinalt, Metapher, Härte, Kiesel
+:images: pebbles-in-rethymno-s-beach
 
 .. class:: original
 

@@ -46,24 +46,29 @@ class ImageGenerator(Generator):
                                      exclude=self.settings['IMAGE_EXCLUDES'],
                                      extensions=['jpg'])
         for filename in found_files:
-            name, extension = os.path.splitext(os.path.basename(filename))
+            name, _ = os.path.splitext(os.path.basename(filename))
             self.static_images[name] = StaticImage(self.settings['PATH'], filename)
             if os.path.exists(os.path.join(self.settings['PATH'], filename.replace('.jpg', '.json'))):
                 with open(os.path.join(self.settings['PATH'], filename.replace('.jpg', '.json'))) as in_f:
                     data = json.load(in_f)
                     self.static_images[name].title = data['title']
-                    self.static_images[name].author = data['author']
-                    self.static_images[name].url = data['url']
+                    if 'author' in data:
+                        self.static_images[name].author = data['author']
+                    if 'url' in data:
+                        self.static_images[name].url = data['url']
         self._update_context(('static_images',))
 
     def generate_output(self, writer):
         for image in self.static_images.values():
-            pass
             os.makedirs(os.path.join(self.output_path, image.base), exist_ok=True)
-            copy(image.source, os.path.join(self.output_path, image.base, image.full.filename))
-            subprocess.run(['gm', 'convert', image.source, '-resize', '1024x1024', os.path.join(self.output_path, image.base, image.medium.filename)])
-            subprocess.run(['gm', 'convert', image.source, '-resize', '640x640', os.path.join(self.output_path, image.base, image.small.filename)])
-            subprocess.run(['gm', 'convert', image.source, '-resize', '220x', os.path.join(self.output_path, image.base, image.thumbnail.filename)])
+            if not os.path.exists(os.path.join(self.output_path, image.base, image.full.filename)):
+                copy(image.source, os.path.join(self.output_path, image.base, image.full.filename))
+            if not os.path.exists(os.path.join(self.output_path, image.base, image.medium.filename)):
+                subprocess.run(['gm', 'convert', image.source, '-resize', '1024x1024', os.path.join(self.output_path, image.base, image.medium.filename)])
+            if not os.path.exists(os.path.join(self.output_path, image.base, image.small.filename)):
+                subprocess.run(['gm', 'convert', image.source, '-resize', '640x640', os.path.join(self.output_path, image.base, image.small.filename)])
+            if not os.path.exists(os.path.join(self.output_path, image.base, image.thumbnail.filename)):
+                subprocess.run(['gm', 'convert', image.source, '-resize', '220x', os.path.join(self.output_path, image.base, image.thumbnail.filename)])
 
 
 def preprocess_images(generators):
