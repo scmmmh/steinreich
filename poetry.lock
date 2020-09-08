@@ -182,6 +182,17 @@ python-versions = "*"
 version = "2019.3"
 
 [[package]]
+category = "dev"
+description = "Checks syntax of reStructuredText and code blocks nested within it"
+name = "rstcheck"
+optional = false
+python-versions = "*"
+version = "3.3.1"
+
+[package.dependencies]
+docutils = ">=0.7"
+
+[[package]]
 category = "main"
 description = "Python 2 and 3 compatibility utilities"
 name = "six"
@@ -215,7 +226,8 @@ python-versions = "*"
 version = "1.11.2"
 
 [metadata]
-content-hash = "461360dce2165f0851d29a89416aa62c6d3cb790f28d21bd265b47e3cb3e3f17"
+content-hash = "5725306e9c698be7920d514d96b5b0cbd062b7c37611a963c7068e3f69259a4c"
+lock-version = "1.0"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -356,6 +368,9 @@ python-dateutil = [
 pytz = [
     {file = "pytz-2019.3-py2.py3-none-any.whl", hash = "sha256:1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d"},
     {file = "pytz-2019.3.tar.gz", hash = "sha256:b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"},
+]
+rstcheck = [
+    {file = "rstcheck-3.3.1.tar.gz", hash = "sha256:92c4f79256a54270e0402ba16a2f92d0b3c15c8f4410cb9c57127067c215741f"},
 ]
 six = [
     {file = "six-1.14.0-py2.py3-none-any.whl", hash = "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"},
