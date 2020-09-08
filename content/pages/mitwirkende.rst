@@ -3,8 +3,27 @@ Mitwirkende
 
 :slug: mitwirkende
 
-Ausstellung
------------
+Texte & Bilder
+--------------
+
+Dr. Eva Wöckener-Gade
+  | Universität Hamburg / Universität Leipzig
+
+PD Dr. Ute Tischer
+  | Universität Potsdam / Universität Leipzig
+
+Prof. Dr. Marcus Deufert
+  | Universität Leipzig
+
+Vincent Graf
+  | Universität Leipzig
+
+Lioba Kauk
+  | Universität Leipzig
+
+Kevin Protze
+  | Universität Leipzig
+
 
 Webseite
 --------
