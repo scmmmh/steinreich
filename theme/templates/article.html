@@ -23,7 +23,11 @@
                     </picture>
                     <figcaption class="orbit-caption">
                       <span>{{ image.title }}</span>
-                      <span><a href="{{ image.url }}" target="_blank" rel="noopener">{{ image.author }}</a></span>
+                      {% if image.url %}
+                        <span><a href="{{ image.url }}" target="_blank" rel="noopener">{{ image.author }}</a></span>
+                      {% else %}
+                        <span>{{ image.author }}</span>
+                      {% endif %}
                     </figcaption>
                   </figure>
                 </li>
