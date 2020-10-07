@@ -30,7 +30,7 @@ def landing_page_images(articles):
                         if 'greek' in classes:
                             is_greek = True
                     elif 'translation' in classes:
-                        translation = ''.join(child.itertext())
+                        translation = ''.join([para for para in child.itertext() if not para.startswith('(')])
             for image in article.images:
                 images.append({'url': article.url,
                                'full': image.full.url,
