@@ -16,7 +16,6 @@ Ovid, Trauerelegien 2,1,16
 
 .. class:: translation
 
-    („Wer sich zweimal stößt an denselben Stein (d. h. denselben Fehler macht) muss wohl blind oder ein Schafskopf sein.“)
     Jetzt aber - so sehr ist meine Krankheit vom Wahnsinn begleitet! - heb' ich den leidigen Fuß neu zu dem Stein, der ihn stieß, ganz wie der Fechter, besiegt, zum Kampf auf dem Sande zurückkehrt, wie das gestrandete Schiff kehrt in die schwellende Flut.
 
     („Wer sich zweimal stößt an denselben Stein (d. h. denselben Fehler macht) muss wohl blind oder ein Schafskopf sein.“)
