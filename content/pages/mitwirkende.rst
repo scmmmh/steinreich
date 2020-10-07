@@ -24,6 +24,14 @@ Lioba Kauk
 Kevin Protze
   | Universität Leipzig
 
+Henning Ohst
+  | Universität Leipzig
+
+Jana Raffel
+  | Universität Leipzig
+
+Dr. Oliver Bräckel
+  | Universität Leipzig
 
 Webseite
 --------
