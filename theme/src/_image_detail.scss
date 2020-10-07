@@ -1,14 +1,36 @@
 .image-detail {
     figure {
+        position: relative;
+
         picture {
             display: block;
             max-height: 75vh;
             overflow: hidden;
+            text-align: center;
+
+            @include breakpoint(large) {
+                max-height: none;
+            }
+
+            img {
+                max-height: 95vh;
+                max-width: 100%;
+
+                @include breakpoint(large) {
+                    max-height: none;
+                }
+            }
         }
     }
-    .orbit-caption {
+    figcaption {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
         font-size: $paragraph-font-size;
         background-color: rgba(34, 34, 34, 0.7);
+        color: $white;
+        padding: $global-padding/2 $global-padding;
 
         span {
             display: block;

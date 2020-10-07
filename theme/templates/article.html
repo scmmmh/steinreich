@@ -10,30 +10,22 @@
   <div class="grid-container">
     <div class="grid-x">
       {% if article.images %}
-        <div class="cell small-12 large-order-3 images">
-          <div class="orbit image-detail" role="region" aria-label="Stone Samples" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-            <ul class="orbit-container">
-              {% for image in article.images %}
-                <li class="orbit-slide is-active">
-                  <figure class="orbit-figure">
+        <div class="cell small-12 large-order-3 image-detail">
+                  <figure>
                     <picture>
-                      <source media="(min-width: 1024px)" srcset="{{ SITEURL }}/{{ image.full.url }}" />
-                      <source media="(min-width: 640px)" srcset="{{ SITEURL }}/{{ image.medium.url }}" />
-                      <img class="orbit-image" src="{{ SITEURL }}/{{ image.small.url }}" alt="{{ image.author }}: {{ image.title }}" />
+                      <source media="(min-width: 1024px)" srcset="{{ SITEURL }}/{{ article.images[0].full.url }}" />
+                      <source media="(min-width: 640px)" srcset="{{ SITEURL }}/{{ article.images[0].medium.url }}" />
+                      <img src="{{ SITEURL }}/{{ article.images[0].small.url }}" alt="{{ article.images[0].author }}: {{ article.images[0].title }}" />
                     </picture>
-                    <figcaption class="orbit-caption">
-                      <span>{{ image.title }}</span>
-                      {% if image.url %}
-                        <span><a href="{{ image.url }}" target="_blank" rel="noopener">{{ image.author }}</a></span>
+                    <figcaption>
+                      <span>{{ article.images[0].title }}</span>
+                      {% if article.images[0].url %}
+                        <span><a href="{{ article.images[0].url }}" target="_blank" rel="noopener">{{ article.images[0].author }}</a></span>
                       {% else %}
-                        <span>{{ image.author }}</span>
+                        <span>{{ article.images[0].author }}</span>
                       {% endif %}
                     </figcaption>
                   </figure>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
         </div>
       {% endif %}
       <div class="cell small-12 large-9 texts">

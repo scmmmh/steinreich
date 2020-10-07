@@ -62,7 +62,7 @@ class ImageGenerator(Generator):
         for image in self.static_images.values():
             os.makedirs(os.path.join(self.output_path, image.base), exist_ok=True)
             if not os.path.exists(os.path.join(self.output_path, image.base, image.full.filename)):
-                copy(image.source, os.path.join(self.output_path, image.base, image.full.filename))
+                subprocess.run(['gm', 'convert', image.source, '-resize', '2048x2048', os.path.join(self.output_path, image.base, image.full.filename)])
             if not os.path.exists(os.path.join(self.output_path, image.base, image.medium.filename)):
                 subprocess.run(['gm', 'convert', image.source, '-resize', '1024x1024', os.path.join(self.output_path, image.base, image.medium.filename)])
             if not os.path.exists(os.path.join(self.output_path, image.base, image.small.filename)):
