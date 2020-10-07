@@ -2,6 +2,10 @@ a {
     transition: color 0.3s;
 }
 
+.line-block {
+    margin-bottom: $global-margin;
+}
+
 .greek {
     font-family: 'GFS Neohellenic', serif;
 }
