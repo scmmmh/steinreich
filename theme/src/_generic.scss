@@ -49,3 +49,16 @@ dd {
 .indent-left {
     margin-left: 1rem;
 }
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+
+    @include breakpoint(small only) {
+        display: block;
+    }
+
+    > * {
+        flex: 1 1 auto;
+    }
+}
