@@ -14,7 +14,7 @@ Ovid, Trauerelegien 3,11,3-4
 
 .. class:: translation
 
-    Du bist vorn Felsen geboren, gesäugt mit der Milch eines Raubtiers, und ich behaupte: dein Herz ist wie ein Kiesel
+    Du bist von Felsen geboren, gesäugt mit der Milch eines Raubtiers, und ich behaupte: dein Herz ist wie ein Kiesel
     so hart.
 
 .. class:: translation-source
