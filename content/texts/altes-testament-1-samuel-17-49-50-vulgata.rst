@@ -13,7 +13,7 @@ Altes Testament, 1 Samuel, 17, 49-50 (Vulgata)
 
 .. class:: translation
 
-    Und David tat seine Hand in die Hirtentasche und nahm einen Stein daraus und schleuderte ihn und traf den Philister an die Stirn, dass der Stein in seine Stirn fuhr und er zur Erde fiel auf sein Angesicht. 50So überwand David den Philister mit Schleuder und Stein und traf und tötete ihn. David aber hatte kein Schwert in seiner Hand.
+    Und David tat seine Hand in die Hirtentasche und nahm einen Stein daraus und schleuderte ihn und traf den Philister an die Stirn, dass der Stein in seine Stirn fuhr und er zur Erde fiel auf sein Angesicht. So überwand David den Philister mit Schleuder und Stein und traf und tötete ihn. David aber hatte kein Schwert in seiner Hand.
 
 .. class:: translation-source
 

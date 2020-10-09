@@ -13,7 +13,8 @@ Plutarch, de defectu oraculorum (Über den Verfall der Orakel) 1, 409e-f
 
 .. class:: translation
 
-    (Der Omphalos (griech.: „ὀμφαλός“, „Nabel“) war ein Kultstein im Apollon-Tempels in Delphi, der den Nabel bzw. Mittelpunkt der Welt markierte.)
+    (Der Omphalos (griech.: „ὀμφαλός“, „Nabel“) war ein Kultstein im Apollon-Tempel in Delphi, der den Nabel bzw. Mittelpunkt der Welt markierte.)
+
     Ein Mythos besagt, mein Terentius Priscus, dass einst (zwei) Adler oder auch Schwäne sich von den Enden der Welt zu ihrer Mitte hin tragen ließen und in Delphi zusammentrafen, wo der sogenannte Omphalos („Nabel“) ist.
 
 .. class:: translation-source

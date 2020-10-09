@@ -17,7 +17,7 @@ Euripides, Ion 222-224
 
 .. class:: translation
 
-    | (Der Omphalos (griech.: „ὀμφαλός“, „Nabel“) war ein Kultstein im Apollon-Tempels in Delphi, der den Nabel bzw. Mittelpunkt der Welt markierte.)
+    | (Der Omphalos (griech.: „ὀμφαλός“, „Nabel“) war ein Kultstein im Apollon-Tempel in Delphi, der den Nabel bzw. Mittelpunkt der Welt markierte.)
     | Chor:
     | Birgt wahrhaftig Phoibos' Haus
     | Jenen Nabel der Erde?

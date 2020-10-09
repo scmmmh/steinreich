@@ -1,5 +1,5 @@
-Aristototeles, Problemata („Probleme“) 937a11-18
-================================================
+Aristoteles, Problemata („Probleme“) 937a11-18
+==============================================
 
 :slug: aristoteles-problemata-937a11-18
 :date: 2020-09-08
@@ -13,7 +13,7 @@ Aristototeles, Problemata („Probleme“) 937a11-18
 
 .. class:: translation
 
-    Warum warden Steine eher durch warmes als durch kaltes Wasser fest? Entweder, weil der Stein durch das Entweichen von Feuchtigkeit entsteht und diese stärker durch Wärme als durch Kälte entweicht und die Versteinerung also auf Wärme zurückzuführen ist? Wie ja auch Empedokles sagt, dass die Felsen und Steine durch die Wärme des Wassers entstehen. Oder versteinert die Wärme und auch durch Kälte kann etwas versteinert werden, wenn übermäßiger Frost die Feuchtigkeit entzieht und es sich deshalb verfestigt?
+    Warum werden Steine eher durch warmes als durch kaltes Wasser fest? Entweder, weil der Stein durch das Entweichen von Feuchtigkeit entsteht und diese stärker durch Wärme als durch Kälte entweicht und die Versteinerung also auf Wärme zurückzuführen ist? Wie ja auch Empedokles sagt, dass die Felsen und Steine durch die Wärme des Wassers entstehen. Oder versteinert die Wärme und auch durch Kälte kann etwas versteinert werden, wenn übermäßiger Frost die Feuchtigkeit entzieht und es sich deshalb verfestigt?
 
 .. class:: translation-source
 

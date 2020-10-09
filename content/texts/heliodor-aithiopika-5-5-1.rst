@@ -14,7 +14,7 @@ Heliodor, Aithiopika, 5, 5, 1
 .. class:: translation
 
     | (Die Liebenden Chariklea und Theagenes müssen sich auf die Flucht machen und planen, wie sie sich, falls sie getrennt werden, in der Fremde wiederfinden können):
-    | Chariklea lobte dies und sie beschlossen, wenn sie getrennt würden, auf Tempel oder berühmte Standbilder oder Hermen oder die Steine an Wegkreuzungen zu schreiben, und zwar Theagenes “der Phytier …” bzw. Chariklea “die Pythierin ist nach rechts oder links gereist in diese Stadt/diesesDorf/zu diesem Volk“, und dass sie den Tag und die Stunde hinzufügen sollten.
+    | Chariklea lobte dies und sie beschlossen, wenn sie getrennt würden, auf Tempel oder berühmte Standbilder oder Hermen oder die Steine an Wegkreuzungen zu schreiben, und zwar Theagenes “der Phytier …” bzw. Chariklea “die Pythierin ist nach rechts oder links gereist in diese Stadt/dieses Dorf/zu diesem Volk“, und dass sie den Tag und die Stunde hinzufügen sollten.
 
 .. class:: translation-source
 

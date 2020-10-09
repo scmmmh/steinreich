@@ -1,5 +1,5 @@
-Plinius der Ältere, Naturkunde 36,55-58: farbige Steinarten
-===========================================================
+Plinius der Ältere, Naturkunde 36,55-58
+=======================================
 
 :slug: plinius-der-aeltere-naturkunde-36-55-58
 :date: 2020-09-08

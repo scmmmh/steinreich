@@ -7,7 +7,7 @@ Plinius der Ältere, Naturkunde 36,30-31
 :tags: Jenseits des menschlichen Maßes, Monumentalität, Architektur, (Welt-)Wunder, Grabmal
 :images: knickpyramide-dahshur
 
-.. class:: original greek
+.. class:: original
 
     Scopas habuit aemulos eadem aetate Bryaxim et Timotheum et Leocharen, de quibus simul dicendum est, quoniam pariter cadavere Mausoleum. sepulchrum hoc est ab uxore Artemisia factum Mausolo, Cariae regulo, qui obiit olympiadis CVII anno secundo, opus id ut esset inter Septem miracula, hi maxime fecere artifices, patet ab austro et septentrione sexagenos temos pedes, brevius a frontibus, toto circumitu pedes CCCCXXXX, attollitur in altitudinem XXV cubitis, cingitur columnis XXXVI. pteron vocavere circumitum. ab oriente caelavit Scopas, a septentrione Bryaxis, a meridie Timotheus, ab occasu Leochares, priusque quam peragerent, regina obiit. non tarnen recesserunt nisi absoluto, iam id gloriae ipsorum artisque monimentum iudicantes; hodieque certant manus. accessit et quintus artifex. namque supra pteron pyramis altitudinem inferiorem aequat, viginti quattuor gradibus in metae cacumen se contrahens; in summo est quadriga marmorea, quam fecit Pythis. haec adiecta CXXXX pedum altitudine totum opus includit.
 

@@ -13,7 +13,7 @@ Platon, Gesetze 8, 838e
 
 .. class:: translation
 
-    auf Stein und Felsen säend (ein unnütze Anstrengung)
+    auf Stein und Felsen säend (eine unnütze Anstrengung)
 
 .. class:: translation-source
 

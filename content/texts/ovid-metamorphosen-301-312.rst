@@ -25,6 +25,7 @@ Ovid, Metamorphosen, 301-312
 .. class:: translation
 
     (Niobe hat sich gegen Leto, die Mutter der Götter Artemis und Apollon, vergangen, indem sie behauptete, sie sei aufgrund ihrer 14 Kinder glücklicher als diese. Daraufhin töten Apollon und Artemis zuerst alle Söhne und dann alle Töchter der Niobe).
+
     Und so saß sie kinderlos unter den Toten, den Söhnen, den Töchtern, dem Mann, und wurde vom Unglück erstarrt. Kein Haar bewegt nun der Wind, das Antlitz ist farblos und blutleer, es stehen starr in den finstren Höhlen die Augen, und nichts ist am ganzen Bilde lebendig. Auch friert innen am harten Gaumen fest ihre Zunge, und es hört in den Adern nun auf das Schlagen des Pulses. Nicht mehr beugen kann sich der Nacken, der Arm sich nicht rühren, gehen nicht mehr der Fuß. Nur Stein ist im Innern des Körpers. Dennoch weint sie. Es hüllt sie ein mächtiger Wirbelwind ein und reißt sie fort in die Heimat, und fest dort gefügt an des Berges Gipfel zerfließt sie, und Tränen vergießt der Marmor noch heute.
 
 .. class:: translation-source

@@ -9,11 +9,11 @@ Plautus, Der Perser 41-42
 
 .. class:: original
 
-    SAG. (...) nam tú **aquam a púmice nunc póstulas**, qui ípsus sitiat.
+    Sagaristio: (...) nam tú **aquam a púmice nunc póstulas**, qui ípsus sitiat.
 
 .. class:: translation
 
-    Sag.: Denn du willst Wasser von einem Bimsstein haben, der selbst durstig ist. (Du verlangst Unmögliches, Geld von jemandem, der selbst keins besitzt)
+    Sagaristio: Denn du willst Wasser von einem Bimsstein haben, der selbst durstig ist. (Du verlangst Unmögliches, Geld von jemandem, der selbst keins besitzt)
 
 .. class:: translation-source
 

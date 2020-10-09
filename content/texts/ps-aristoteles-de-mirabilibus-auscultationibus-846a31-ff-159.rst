@@ -13,7 +13,7 @@ Ps.-Aristoteles, De mirabilibus auscultationibus („Über wundersame Gerüchte�
 
 .. class:: translation
 
-    Man sagt im Tigris gebe es einen Stein, den man in der Landessprache “Modon” nennt; er ist ganz weiß gefärbt: wer diesen bei sich hat, wird nicht von wilden Tieren angegriffen.
+    Man sagt, im Tigris gebe es einen Stein, den man in der Landessprache “Modon” nennt; er ist ganz weiß gefärbt: wer diesen bei sich hat, wird nicht von wilden Tieren angegriffen.
 
 .. class:: translation-source
 

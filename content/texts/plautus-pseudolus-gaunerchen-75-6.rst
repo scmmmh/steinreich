@@ -9,11 +9,11 @@ Plautus, Pseudolus (Gaunerchen) 75-6
 
 .. class:: original
 
-    CAL. Quin fles? PS. **Pumiceos oculos habeo**: non queo / lacrumam exorare ut expuant unam modo.
+    Calidorus: Quin fles? Pseudolus: **Pumiceos oculos habeo**: non queo / lacrumam exorare ut expuant unam modo.
 
 .. class:: translation
 
-    CAL. So weine doch! PS. Von Bimsstein ist mein Aug', ich kann nicht bitten, daß es eine Träne preßt heraus.
+    Calidorus: So weine doch! Pseudolus: Von Bimsstein ist mein Aug', ich kann nicht bitten, daß es eine Träne preßt heraus.
 
 .. class:: translation-source
 

@@ -9,10 +9,7 @@ Plinius der Ältere, Naturkunde 37, 1
 
 .. class:: original
 
-    | Ut nihil instituto operi desit, gemmae supersunt et in artum coacta rerum naturae maiestas, multis
-    | nulla parte mirabilior. tantum tribuunt varietali, coloribus, materiae, decori, violare etiam signis,
-    | quae causa gemmarum est, quasdam nefas ducentes, aliquas vero extra pretia ulla taxationemque
-    | humanarum opum arbitrantes, ut plerisque ad summam absolutamque naturae rerum contemplationem satis sit una aliqua gemma.
+    Ut nihil instituto operi desit, gemmae supersunt et in artum coacta rerum naturae maiestas, multis nulla parte mirabilior. tantum tribuunt varietali, coloribus, materiae, decori, violare etiam signis, quae causa gemmarum est, quasdam nefas ducentes, aliquas vero extra pretia ulla taxationemque humanarum opum arbitrantes, ut plerisque ad summam absolutamque naturae rerum contemplationem satis sit una aliqua gemma.
 
 .. class:: translation
 

@@ -1,4 +1,4 @@
-Herodot, Historien, 2.8.1
+Herodot, Historien, 2,8,1
 =========================
 
 :slug: herodot-historien-2-8-1
