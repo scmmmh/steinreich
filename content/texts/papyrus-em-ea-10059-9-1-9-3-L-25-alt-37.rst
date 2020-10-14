@@ -3,7 +3,7 @@ Papyrus BM EA 10059, 9,1-9,3 (= L 25 (alt 37))
 
 :slug: papyrus-em-ea-10059-9-1-9-3-L-25-alt-37
 :date: 2020-09-08
-:category: Den Steinen auf der Spur
+:category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Magie, Medizin, Karneol
 :images: london-medical-papyrus
 

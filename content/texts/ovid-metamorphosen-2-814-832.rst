@@ -3,7 +3,7 @@ Ovid, Metamorphosen 2, 814–832
 
 :slug: ovid-metamorphosen-2-814-832
 :date: 2020-09-08
-:category: Im Schutz der Steine
+:category: Bilder aus Stein
 :tags: Bilder aus Stein, Versteinerung, Mythos, Statue
 :images: mercury-changes-aglauros-to-stone
 

@@ -4,7 +4,7 @@ Euripides, Die Kinder des Herakles 1002
 :slug: euripides-die-kinder-des-herakles-1002
 :date: 2020-09-08
 :category: Stein – Technik – Arbeit
-:tags: Stein – Technik - Arbeit, Redewendung / Sprichwort, Gründlichkeit
+:tags: Stein – Technik – Arbeit, Redewendung / Sprichwort, Gründlichkeit
 :images: bronzeskulptur-die-steinschlaegerin
 
 .. class:: original greek

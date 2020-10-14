@@ -3,7 +3,7 @@ Martial, Epigramme 5,41,6
 
 :slug: martial-epigramme-5-41-6
 :date: 2020-09-08
-:category: Den Steinen auf der Spur
+:category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Kosmetik, Bimsstein
 :images: pumice-santorini
 

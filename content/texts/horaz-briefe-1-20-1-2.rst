@@ -3,7 +3,7 @@ Horaz, Briefe 1,20,1-2
 
 :slug: horaz-briefe-1-20-1-2
 :date: 2020-09-08
-:category: Bilder aus Stein
+:category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Bimsstein, Literarischer Stil, Metapher, Glätte
 :images: pumice-santorini
 
