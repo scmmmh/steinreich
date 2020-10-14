@@ -3,8 +3,8 @@ Herodot, Historien 2,12, 1
 
 :slug: herodot-historien-2-12-1
 :date: 2020-09-08
-:category: Weg der Steine
-:tags: Weg der Steine, Pyramiden
+:category: Der Weg der Steine
+:tags: Der Weg der Steine, Pyramiden
 :images: knickpyramide-dahshur
 
 .. class:: original greek

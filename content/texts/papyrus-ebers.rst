@@ -1,7 +1,7 @@
-Missing
-=======
+Papyrus Ebers
+=============
 
-:slug: missing-2
+:slug: papyrus-ebers
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Medizin

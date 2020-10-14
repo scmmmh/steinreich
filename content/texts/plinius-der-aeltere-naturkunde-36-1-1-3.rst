@@ -3,8 +3,8 @@ Plinius der Ältere, Naturkunde 36,1,1-3
 
 :slug: plinius-der-aeltere-naturkunde-36-1-1-3
 :date: 2020-09-08
-:category: Stein – Technik - Arbeit
-:tags: Stein – Technik - Arbeit, Moral, Marmor, Steinbruch, Raubbau
+:category: Stein – Technik – Arbeit
+:tags: Stein – Technik – Arbeit, Moral, Marmor, Steinbruch, Raubbau
 :images: modell-einer-steinsaege
 
 .. class:: original

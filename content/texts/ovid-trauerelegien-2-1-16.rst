@@ -3,8 +3,8 @@ Ovid, Trauerelegien 2,1,16
 
 :slug: ovid-trauerelegien-2-1-16
 :date: 2020-09-08
-:category: Weg der Steine
-:tags: Weg der Steine, Redewendung / Sprichwort, Hindernis
+:category: Der Weg der Steine
+:tags: Der Weg der Steine, Redewendung / Sprichwort, Hindernis
 :images: findlinge-ackerflur-tauchaer-endmoraene-bei-liemehna
 
 .. class:: original

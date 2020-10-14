@@ -3,8 +3,8 @@ Polybius, Universalgeschichte 31.11.5
 
 :slug: polybius-universalgeschichte-31-11-5
 :date: 2020-09-08
-:category: Weg der Steine
-:tags: Weg der Steine, Redewendung / Sprichwort, Hindernis
+:category: Der Weg der Steine
+:tags: Der Weg der Steine, Redewendung / Sprichwort, Hindernis
 :images: findlinge-ackerflur-tauchaer-endmoraene-bei-liemehna
 
 .. class:: original greek
