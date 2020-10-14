@@ -36,3 +36,25 @@ PLUGINS = [
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 DEVELOPMENT = True
+
+# Theme Groupings
+MUSEUM_EGYPT = [
+    'den-steinen-auf-der-spur',
+    'steinhart-und-steinalt',
+    'zuruck-in-die-steinzeit',
+    'stein-und-brot',
+    'die-kraft-der-steine',
+    'jenseits-des-menschlichen-masses',
+    'und-das-wort-ward-stein',
+    'zu-stein-geworden-aus-stein-geboren',
+]
+MUSEUM_ANTIQUITIES = [
+    'der-weg-der-steine',
+    'mensch-formt-stein-stein-formt-mensch',
+    'bilder-aus-stein',
+    'mord-und-steinschlag',
+    'im-schutz-der-steine',
+    'grabstein-und-steingrab',
+    'das-mass-der-steine',
+    'un-verganglichkeit',
+]

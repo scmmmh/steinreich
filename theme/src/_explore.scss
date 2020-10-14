@@ -212,3 +212,15 @@
         }
     }
 }
+
+.categories {
+    @include breakpoint(medium only) {
+        .label-list {
+            display: flex;
+
+            > div {
+                flex: 1 1 auto;
+            }
+        }
+    }
+}
