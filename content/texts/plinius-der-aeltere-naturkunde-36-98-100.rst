@@ -3,8 +3,8 @@ Plinius der Ältere, Naturkunde 36, 98-100
 
 :slug: plinius-der-aeltere-naturkunde-36-98-100
 :date: 2020-09-08
-:category: Stein – Technik – Arbeit
-:tags: Stein – Technik – Arbeit, (Welt-)Wunder, Architektur, Handwerk
+:category: Mensch formt Stein – Stein formt Mensch
+:tags: Mensch formt Stein – Stein formt Mensch, (Welt-)Wunder, Architektur, Handwerk
 :images: modell-einer-steinsaege
 
 .. class:: original
