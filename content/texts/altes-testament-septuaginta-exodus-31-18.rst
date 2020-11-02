@@ -5,6 +5,7 @@ Altes Testament - Septuaginta, Exodus 31, 18
 :date: 2020-09-08
 :category: Und das Wort ward Stein
 :tags: Und das Wort ward Stein, Epigraphik, Religion
+:author: Altes Testament
 :images: meister-der-bibel-des-patrice-leon
 
 .. class:: original greek

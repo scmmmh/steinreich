@@ -5,6 +5,7 @@ Iustinian Digesten 9,2,27,33
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Transport, Recht
+:author: Iustinian
 :images: cart-ruts-dwejra-point-2
 
 .. class:: original

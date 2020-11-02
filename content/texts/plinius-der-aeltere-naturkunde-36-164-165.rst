@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,164-165
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Schleifstein, Handwerk
+:author: Plinius der Ältere
 :images: steinbeile-aexte-verschiedene-herstellungsstufen
 
 .. class:: original

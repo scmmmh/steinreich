@@ -5,6 +5,7 @@ Papyrus BM EA 10059, 9,1-9,3 (= L 25 (alt 37))
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Magie, Medizin, Karneol
+:author: Papyrus
 :images: london-medical-papyrus
 
 .. class:: translation

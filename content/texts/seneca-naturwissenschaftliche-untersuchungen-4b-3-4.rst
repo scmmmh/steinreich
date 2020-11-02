@@ -5,6 +5,7 @@ Seneca, Naturwissenschaftliche Untersuchungen 4b,3,4
 :date: 2019-09-13
 :category: Steinhart und steinalt
 :tags: Steinhart und steinalt, Redewendung / Sprichwort, Härte
+:author: Seneca
 :images: red-rock-erosion-steps
 
 .. class:: original

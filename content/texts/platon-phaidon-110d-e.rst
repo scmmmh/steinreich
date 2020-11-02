@@ -5,6 +5,7 @@ Platon, Phaidon 110d-e
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Edelsteine, Entstehung, Mythos, Karneol, Jaspis
+:author: Platon
 :images: jaspis
 
 .. class:: original greek

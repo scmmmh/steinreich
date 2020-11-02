@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,168-173
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Architektur, Kiesel, Handwerk
+:author: Plinius der Ältere
 :images: pebbles-in-rethymno-s-beach
 
 .. class:: original

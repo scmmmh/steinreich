@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,157-159
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Medizin, Steingefäße, Härte, Handwerk
+:author: Plinius der Ältere
 :images: moderne-steinheilkunde-achatroller-glatte-haut-narbenbehandlung
 
 .. class:: original

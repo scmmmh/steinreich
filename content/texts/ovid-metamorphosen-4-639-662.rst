@@ -5,6 +5,7 @@ Ovid, Metamorphosen 4,639-662
 :date: 2020-09-08
 :category: Zu Stein geworden – aus Stein geboren
 :tags: Zu Stein geworden – aus Stein geboren, Mythos, Perseus, Medusa, Atlas, Versteinerung, Entstehung
+:author: Ovid
 :images: atlas-figur-hauptbahnhof-leipzig
 
 .. class:: original

@@ -5,6 +5,7 @@ Ps.-Aischylos, Der gefesselte Prometheus 242ff.
 :date: 2019-09-13
 :category: Steinhart und steinalt
 :tags: Steinhart und steinalt, Redewendung / Sprichwort, Härte, Emotion, Prometheus
+:author: Ps.-Aischylos
 :images: prometheus-3
 
 .. class:: original greek

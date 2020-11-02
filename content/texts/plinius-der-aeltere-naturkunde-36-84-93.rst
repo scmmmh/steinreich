@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36, 84-93
 :date: 2020-09-08
 :category: Jenseits des menschlichen Maßes
 :tags: Jenseits des menschlichen Maßes, Monumentalität, Architektur, Luxus, Moral, (Welt-)Wunder
+:author: Plinius der Ältere
 :images: knickpyramide-dahshur
 
 .. class:: original

@@ -5,6 +5,7 @@ Ausonius, Mosella, 359–364
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Luxus, Marmor, Handwerk
+:author: Ausonius
 :images: modell-einer-steinsaege
 
 .. class:: original

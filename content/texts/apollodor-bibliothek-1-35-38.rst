@@ -5,6 +5,7 @@ Apollodor, Bibliothek 1,35-38
 :date: 2020-03-21
 :category: Mord und Steinschlag
 :tags: Mord und Steinschlag, Waffe, Mythos, Giganten / Titanen, Schleuderstein, Entstehung
+:author: Apollodor
 :images: peter-paul-rubens-titanen
 
 .. class:: original greek

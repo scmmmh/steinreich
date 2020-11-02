@@ -5,6 +5,7 @@ Ovid, Metamorphosen, 301-312
 :date: 2020-09-08
 :category: Zu Stein geworden – aus Stein geboren
 :tags: Zu Stein geworden – aus Stein geboren, Mythos, Niobe, Versteinerung
+:author: Ovid
 :images: manisa-aglayan-kaya-weeping-stone-turkey
 
 .. class:: original

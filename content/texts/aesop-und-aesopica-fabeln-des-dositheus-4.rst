@@ -5,6 +5,7 @@ Aesop und Aesopica: Fabeln des Dositheus 4
 :date: 2020-09-08
 :category: Den Steinen auf der Spur
 :tags: Den Steinen auf der Spur, Fabel
+:author: Aesop und Aesopica
 :images: pebbles-in-rethymno-s-beach
 
 .. class:: original greek

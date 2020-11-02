@@ -5,6 +5,7 @@ Euripides, Die Kinder des Herakles 1002
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Redewendung / Sprichwort, Gründlichkeit
+:author: Europides
 :images: bronzeskulptur-die-steinschlaegerin
 
 .. class:: original greek

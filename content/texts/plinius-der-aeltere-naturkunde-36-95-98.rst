@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36, 95-98
 :date: 2020-09-08
 :category: Jenseits des menschlichen Maßes
 :tags: Jenseits des menschlichen Maßes, Monumentalität, Architektur, (Welt-)Wunder
+:author: Plinius der Ältere
 :images: templo-artemisa-efeso
 
 .. class:: original

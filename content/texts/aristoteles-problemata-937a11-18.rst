@@ -5,6 +5,7 @@ Aristoteles, Problemata („Probleme“) 937a11-18
 :date: 2020-09-08
 :category: Steinhart und steinalt
 :tags: Steinhart und steinalt, Entstehung
+:author: Aristoteles
 :images: tropfsteinformation-teufelshoehle-pottenstein-franken
 
 .. class:: original greek

@@ -5,6 +5,7 @@ Herodas, Mimiamben 6, 82ff.
 :date: 2020-09-08
 :category: Stein und Brot
 :tags: Stein und Brot, Mühlstein
+:author: Herodas
 :images: statue-einer-kornmahlenden-dienerin
 
 .. class:: original greek

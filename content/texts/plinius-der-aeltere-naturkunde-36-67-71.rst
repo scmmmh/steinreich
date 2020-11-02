@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,67-71
 :date: 2020-09-08
 :category: Der Weg der Steine
 :tags: Der Weg der Steine, Transport, Luxus
+:author: Plinius der Ältere
 :images: move-of-the-vatican-obelisk-by-giovanni-guerra
 
 .. class:: original

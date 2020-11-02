@@ -5,6 +5,7 @@ Hidlegard von Bingen, Das Buch von den Steinen, 72, 3-10 (Struck)
 :date: 2020-11-02
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Magie
+:author: Hildegard von Bingen
 :images: haematit-skarabaeus
 
 .. class:: original

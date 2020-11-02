@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,184
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Mosaik, Handwerk
+:author: Plinius der Ältere
 :images: restes-du-banquet
 
 .. class:: original

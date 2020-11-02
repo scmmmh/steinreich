@@ -5,6 +5,7 @@ Platon, Hippias Minor 368b-c
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Edelsteine, Gemmen, Handwerk
+:author: Platon
 :images: gold-ring-with-carnelian-or-glass-intaglio
 
 .. class:: original greek

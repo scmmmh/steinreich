@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,154-156
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Bimsstein, Kosmetik, Medizin, Glätte
+:author: Plinius der Ältere
 :images: pumice-santorini
 
 .. class:: original

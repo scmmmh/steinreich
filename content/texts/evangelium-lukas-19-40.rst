@@ -5,6 +5,7 @@ Evangelium Lukas, 19,40
 :date: 2020-09-08
 :category: Und das Wort ward Stein
 :tags: Und das Wort ward Stein, Redewendung / Sprichwort, Metapher
+:author: Evangelium Lukas
 :images: demotisches-ostrakon
 
 .. class:: original greek

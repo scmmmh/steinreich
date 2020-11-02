@@ -5,6 +5,7 @@ Anonymus, De differentiis verborum („Über die Unterscheidung der Wörter“) 
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Entstehung
+:author: Anonymus
 :images: bronzeskulptur-die-steinschlaegerin
 
 .. class:: original

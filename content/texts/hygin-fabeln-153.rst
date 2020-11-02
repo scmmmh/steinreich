@@ -5,6 +5,7 @@ Hygin, Fabeln 153
 :date: 2020-09-08
 :category: Zu Stein geworden – aus Stein geboren
 :tags: Zu Stein geworden – aus Stein geboren, Mythos, Deukalion, Pyrrha
+:author: Hygin
 :images: peter-paul-rubens-deucalion-and-pyrrha
 
 .. class:: original

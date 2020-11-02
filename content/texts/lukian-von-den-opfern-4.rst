@@ -5,6 +5,7 @@ Lukian, Von den Opfern 4
 :date: 2020-09-08
 :category: Im Schutz der Steine
 :tags: Im Schutz der Steine, Mythos, Befestigung, Architektur, Troja
+:author: Lukian
 :images: rekonstruktion-murus-gallicus-keltenmuseum-manching
 
 .. class:: original greek

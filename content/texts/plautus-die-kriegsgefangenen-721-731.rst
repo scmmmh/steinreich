@@ -5,6 +5,7 @@ Plautus, Die Kriegsgefangenen 721-731
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Steinbruch, Strafe
+:author: Plautus
 :images: steinarbeiter-steinbruch-zinkenberg
 
 .. class:: original

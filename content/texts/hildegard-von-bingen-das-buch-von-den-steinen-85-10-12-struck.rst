@@ -5,6 +5,7 @@ Hidlegard von Bingen, Das Buch von den Steinen, 85, 10-12 (Struck)
 :date: 2020-11-02
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Medizin, Alabaster
+:author: Hildegard von Bingen
 :images: kalzit-alabaster
 
 .. class:: original

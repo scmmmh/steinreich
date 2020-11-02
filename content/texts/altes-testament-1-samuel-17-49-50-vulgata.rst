@@ -5,6 +5,7 @@ Altes Testament, 1 Samuel, 17, 49-50 (Vulgata)
 :date: 2020-09-08
 :category: Mord und Steinschlag
 :tags: Mord und Steinschlag, Waffe, Schleuderstein, Mythos
+:author: Altes Testament
 :images: michelangelo-david-replik-polierter-schleuderstein
 
 .. class:: original

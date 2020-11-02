@@ -5,6 +5,7 @@ Ps.-Aischylos, Der gefesselte Prometheus, 447-453
 :date: 2019-09-13
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Kultur, Architektur, Prometheus, Handwerk
+:author: Ps.-Aischylos
 :images: modell-einer-steinsaege
 
 .. class:: original greek

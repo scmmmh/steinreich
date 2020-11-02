@@ -5,6 +5,7 @@ Ovid, Metamorphosen 2,683–707
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Versteinerung, Mythos
+:author: Ovid
 :images: schreitende-statuen
 
 .. class:: original

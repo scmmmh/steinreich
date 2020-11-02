@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36, 98-100
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, (Welt-)Wunder, Architektur, Handwerk
+:author: Plinius der Ältere
 :images: modell-einer-steinsaege
 
 .. class:: original

@@ -5,6 +5,7 @@ Lucan, Der Bürgerkrieg 9, 961-999
 :date: 2020-09-08
 :category: (Un-)Vergänglichkeit?
 :tags: (Un-)Vergänglichkeit?, Literarischer Stil, Religion, Befestigung, Troja, Ruine
+:author: Lucan
 :images: veduta-di-campo-vaccino
 
 .. class:: original

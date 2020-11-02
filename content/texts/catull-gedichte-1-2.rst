@@ -5,6 +5,7 @@ Catull, Gedichte 1,2
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Bimsstein, Literarischer Stil, Metapher, Glätte
+:author: Catull
 :images: pumice-santorini
 
 .. class:: original

@@ -5,6 +5,7 @@ Tibull, Gedichte 1,3,53-6
 :date: 2020-09-08
 :category: Grabstein und Steingrab
 :tags: Grabstein und Steingrab, Epigraphik, Grabinschrift
+:author: Tibull
 :images: grabstele-soldat-bosporanisches-reich
 
 .. class:: original

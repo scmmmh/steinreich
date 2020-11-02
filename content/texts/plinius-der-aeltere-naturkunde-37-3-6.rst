@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde, 37, 3, 6
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Luxus, Edelsteine, Gemmen
+:author: Plinius der Ältere
 :images: gold-ring-with-carnelian-or-glass-intaglio
 
 .. class:: original

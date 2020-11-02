@@ -5,6 +5,7 @@ Altes Testament – Septuaginta, Exodus 31, 45-46
 :date: 2020-09-08
 :category: Zurück in die Steinzeit!
 :tags: Zurück in die Steinzeit!, Architektur, Religion
+:author: Altes Testament
 :images: gletschersteinpyramide-leipzig-stoetteritz
 
 .. class:: original greek

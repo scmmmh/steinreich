@@ -5,6 +5,7 @@ Lukian, Wahre Geschichten, 2, 11, 3 - 12, 1
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Edelsteine, Luxus
+:author: Lukian
 :images: gems-in-sri-lanka
 
 .. class:: original greek

@@ -5,6 +5,7 @@ Horaz, Von der Dichtkunst 304-8
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Metapher, Literarischer Stil, Schleifstein
+:author: Horaz
 :images: steinerne-axt-beilklingen
 
 .. class:: original greek

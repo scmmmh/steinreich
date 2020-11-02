@@ -5,6 +5,7 @@ Homer, Ilias 7, 263-272
 :date: 2020-09-08
 :category: Mord und Steinschlag
 :tags: Mord und Steinschlag, Waffe, Mythos, Schleuderstein, Mühlstein
+:author: Homer
 :images: michelangelo-david-replik-polierter-schleuderstein
 
 .. class:: original greek

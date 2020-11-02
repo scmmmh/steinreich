@@ -5,6 +5,7 @@ Euripides, Ion 222-224
 :date: 2020-09-08
 :category: Das Maß der Steine
 :tags: Das Maß der Steine, Mythos, Entstehung, Omphalos
+:author: Europides
 :images: omphalos-museum
 
 .. class:: original greek

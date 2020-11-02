@@ -5,6 +5,7 @@ Ovid, Metamorphosen 4,765-786
 :date: 2020-09-08
 :category: Zu Stein geworden – aus Stein geboren
 :tags: Zu Stein geworden – aus Stein geboren, Mythos, Perseus, Medusa, Versteinerung
+:author: Ovid
 :images: kopf-der-gorgo-aus-terrakotta
 
 .. class:: original

@@ -5,6 +5,7 @@ Plautus, Aulularia (Der Goldtopf) 296-7
 :date: 2019-09-13
 :category: Steinhart und steinalt
 :tags: Steinhart und steinalt, Metapher, Bimsstein, Trockenheit
+:author: Plautus
 :images: pumice-santorini
 
 .. class:: original

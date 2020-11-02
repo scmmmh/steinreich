@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,55-58
 :date: 2020-09-08
 :category: Den Steinen auf der Spur
 :tags: Den Steinen auf der Spur, Marmor, Medizin, Steinbruch, Transport
+:author: Plinius der Ältere
 :images: lapidarium-kapitolinische-museen-rom
 
 .. class:: original

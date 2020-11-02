@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36, 43
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Statue, (Hyper-)Realismus
+:author: Plinius der Ältere
 :images: venus-von-willendorf
 
 .. class:: original

@@ -5,6 +5,7 @@ Herodot, Historien 1, 93
 :date: 2020-09-08
 :category: Grabstein und Steingrab
 :tags: Grabstein und Steingrab, Architektur, Moral, Monumentalität, Handwerk
+:author: Herodot
 :images: rekonstruktion-einer-aegyptischen-grabkammer
 
 .. class:: original greek

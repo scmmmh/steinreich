@@ -5,6 +5,7 @@ Plautus, Der Perser 41-42
 :date: 2020-09-08
 :category: Steinhart und steinalt
 :tags: Steinhart und steinalt, Metapher, Bimsstein, Trockenheit
+:author: Plautus
 :images: pumice-santorini
 
 .. class:: original

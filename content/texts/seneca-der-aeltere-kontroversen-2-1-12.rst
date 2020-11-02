@@ -5,6 +5,7 @@ Seneca der Ältere, Kontroversen 2,1,12
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Moral, Luxus, Marmor, Mosaik, Ruine
+:author: Seneca der Ältere
 :images: modell-einer-steinsaege
 
 .. class:: original

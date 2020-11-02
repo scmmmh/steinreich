@@ -5,6 +5,7 @@ Herodot, Historien 2,12, 1
 :date: 2020-09-08
 :category: Der Weg der Steine
 :tags: Der Weg der Steine, Pyramiden
+:author: Herodot
 :images: knickpyramide-dahshur
 
 .. class:: original greek

@@ -5,6 +5,7 @@ Ovid, Briefe vom Schwarzen Meer 1,2,29-34
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Versteinerung, Metapher
+:author: Ovid
 :images: manisa-aglayan-kaya-weeping-stone-turkey
 
 .. class:: original

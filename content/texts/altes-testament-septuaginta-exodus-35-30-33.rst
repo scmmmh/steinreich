@@ -5,6 +5,7 @@ Altes Testament – Septuaginta, Exodus 35, 30-33
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Kultur, Handwerk
+:author: Altes Testament
 :images: modell-einer-steinsaege
 
 .. class:: original greek

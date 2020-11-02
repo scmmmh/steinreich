@@ -5,6 +5,7 @@ Ovid, Metamorphosen 10, 243-297
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Versteinerung, Pygmalion, Mythos, Statue
+:author: Ovid
 :images: venus-mdbk
 
 .. class:: original

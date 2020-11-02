@@ -5,6 +5,7 @@ Plautus, Der Punier 291
 :date: 2019-09-13
 :category: Der Weg der Steine
 :tags: Der Weg der Steine, Redewendung / Sprichwort, Dummheit, Kiesel
+:author: Plautus
 :images: pebbles-in-rethymno-s-beach
 
 .. class:: original

@@ -5,6 +5,7 @@ Martial, Epigramme 5,41,6
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Kosmetik, Bimsstein
+:author: Martial
 :images: pumice-santorini
 
 .. class:: original greek

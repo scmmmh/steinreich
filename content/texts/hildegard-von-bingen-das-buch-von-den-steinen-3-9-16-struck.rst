@@ -5,6 +5,7 @@ Hildegard von Bingen, Das Buch von den Steinen, 3, 9-16 (Struck)
 :date: 2020-11-02
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Magie, Medizin, Moral
+:author: Hildegard von Bingen
 :images: gems-in-sri-lanka
 
 .. class:: original

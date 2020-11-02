@@ -5,6 +5,7 @@ Cicero, Für Gnaeus Plancius 95
 :date: 2019-09-13
 :category: Grabstein und Steingrab
 :tags: Grabstein und Steingrab, Metapher, Wertlosigkeit, Statue
+:author: Cicero
 :images: grabstele-soldat-bosporanisches-reich
 
 .. class:: original

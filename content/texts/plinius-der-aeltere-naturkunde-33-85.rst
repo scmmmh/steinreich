@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 33,85
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Medizin, Bimsstein
+:author: Plinius der Ältere
 :images: pumice-santorini
 
 .. class:: original

@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,83
 :date: 2020-09-08
 :category: Jenseits des menschlichen Maßes
 :tags: Jenseits des menschlichen Maßes, Monumentalität, Architektur, Luxus, Moral, (Welt-)Wunder, Epigraphik
+:author: Plinius der Ältere
 :images: pharos-alexandria-fischer-von-erlach
 
 .. class:: original

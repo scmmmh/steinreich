@@ -5,6 +5,7 @@ Herodot, Historien 2, 126
 :date: 2020-09-08
 :category: Jenseits des menschlichen Maßes
 :tags: Jenseits des menschlichen Maßes, Monumentalität, Architektur, Luxus, Moral, Pyramiden
+:author: Herodot
 :images: knickpyramide-dahshur
 
 .. class:: original greek

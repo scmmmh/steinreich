@@ -5,6 +5,7 @@ Tibull, Gedichte 1, 1, 64
 :date: 2019-09-13
 :category: Steinhart und steinalt
 :tags: Steinhart und steinalt, Redewendung / Sprichwort, Härte, Emotion
+:author: Tibull
 :images: pebbles-in-rethymno-s-beach
 
 .. class:: original

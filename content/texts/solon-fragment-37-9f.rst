@@ -5,6 +5,7 @@ Solon, Fragment 37 9f
 :date: 2020-09-08
 :category: Das Maß der Steine
 :tags: Das Maß der Steine, Metapher, Grenzstein
+:author: Solon
 :images: doppelherme-portraets-sophokles-aristophanes
 
 .. class:: original greek

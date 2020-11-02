@@ -5,6 +5,7 @@ Sophokles, Ödipus auf Kolonos 14-20; 53-63
 :date: 2020-09-08
 :category: Das Maß der Steine
 :tags: Im Schutz der Steine, Mythos, Befestigung, Fundament, Religion
+:author: Sophokles
 :images: giroust-oedipus-at-colonus
 
 .. class:: original greek

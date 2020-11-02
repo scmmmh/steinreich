@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,47-50
 :date: 2020-09-08
 :category: (Un-)Vergänglichkeit?
 :tags: (Un-)Vergänglichkeit?, Luxus, Marmor, Transport
+:author: Plinius der Ältere
 :images: casa-dei-crescenzi-portal
 
 .. class:: original

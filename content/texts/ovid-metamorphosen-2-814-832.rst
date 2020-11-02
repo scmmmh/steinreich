@@ -5,6 +5,7 @@ Ovid, Metamorphosen 2, 814–832
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Versteinerung, Mythos, Statue
+:author: Ovid
 :images: mercury-changes-aglauros-to-stone
 
 .. class:: original

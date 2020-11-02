@@ -5,6 +5,7 @@ Herodot, Historien, 2,8,1
 :date: 2020-09-08
 :category: Jenseits des menschlichen Maßes
 :tags: Jenseits des menschlichen Maßes, Steinbruch, Raubbau, Pyramiden
+:author: Herodot
 :images: knickpyramide-dahshur
 
 .. class:: original greek

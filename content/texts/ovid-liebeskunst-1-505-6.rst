@@ -5,6 +5,7 @@ Ovid, Liebeskunst 1, 505-6
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Kosmetik, Bimsstein
+:author: Ovid
 :images: pumice-santorini
 
 .. class:: original

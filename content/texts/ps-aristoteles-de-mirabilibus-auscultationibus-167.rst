@@ -5,6 +5,7 @@ Ps.-Aristoteles, De mirabilibus auscultationibus („Über wundersame Gerüchte�
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Magie
+:author: Ps.-Aischylos
 :images: kette-amuletten-perlen
 
 .. class:: original greek

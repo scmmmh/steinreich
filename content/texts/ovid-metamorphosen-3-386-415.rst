@@ -5,6 +5,7 @@ Ovid, Metamorphosen 3,386-415
 :date: 2020-09-08
 :category: Zu Stein geworden – aus Stein geboren
 :tags: Zu Stein geworden – aus Stein geboren, Mythos, Narcissus, Echo, Versteinerung, Mythos, Statue
+:author: Ovid
 :images: narcissus-and-echo
 
 .. class:: original

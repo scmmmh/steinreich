@@ -5,6 +5,7 @@ Evangelium Matthäus 7,9
 :date: 2019-09-13
 :category: Stein und Brot
 :tags: Stein und Brot, Redewendung / Sprichwort, Wertlosigkeit
+:author: Evangelium Matthäus
 :images: statue-einer-kornmahlenden-dienerin
 
 .. class:: original greek

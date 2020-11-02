@@ -5,6 +5,7 @@ Homer, Ilias 21, 441-460
 :date: 2020-09-08
 :category: Im Schutz der Steine
 :tags: Im Schutz der Steine, Mythos, Befestigung, Troja
+:author: Homer
 :images: rekonstruktion-murus-gallicus-keltenmuseum-manching
 
 .. class:: original greek

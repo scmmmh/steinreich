@@ -5,6 +5,7 @@ Vitruv, Über die Baukunst, 3,1,1
 :date: 2020-09-08
 :category: Das Maß der Steine
 :tags: Das Maß der Steine, Architektur
+:author: Vitruv
 :images: metrological-relief-ashmolean
 
 .. class:: original

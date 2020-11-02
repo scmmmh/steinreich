@@ -5,6 +5,7 @@ Papyrus Ebers 33,1-33,4 (Eb 155)
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Medizin
+:author: Papyrus
 :images: papyrus-ebers
 
 .. class:: translation

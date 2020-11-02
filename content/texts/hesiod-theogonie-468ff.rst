@@ -5,6 +5,7 @@ Hesiod, Theogonie 468ff
 :date: 2020-09-08
 :category: Der Weg der Steine
 :tags: Der Weg der Steine, Mythos, Religion
+:author: Hesiod
 :images: basis-mit-geburtsmythos-des-zeus-iupiter
 
 .. class:: original greek

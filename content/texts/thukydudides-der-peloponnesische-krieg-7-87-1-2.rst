@@ -5,6 +5,7 @@ Thukydudides, Der Peloponnesische Krieg, 7, 87,1-2
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Moral, Monumentalität, Steinbruch, Raubbau
+:author: Thukydudides
 :images: steinarbeiter-steinbruch-zinkenberg
 
 .. class:: original greek

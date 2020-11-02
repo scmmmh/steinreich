@@ -5,6 +5,7 @@ Ps.-Aischylos, Der gefesselte Prometheus 1-35
 :date: 2020-09-08
 :category: Mord und Steinschlag
 :tags: Mord und Steinschlag, Mythos, Härte, Prometheus, Strafe
+:author: Ps.-Aischylos
 :images: prometheus
 
 .. class:: original greek

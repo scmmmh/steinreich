@@ -5,6 +5,7 @@ Diodor, Bibliothek 4, 76, 1-3
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Mythos, Statue, (Hyper-)Realismus, Daedalus
+:author: Diodor
 :images: daedalus-archeological-museum-amman-citadel-jordan
 
 .. class:: original greek

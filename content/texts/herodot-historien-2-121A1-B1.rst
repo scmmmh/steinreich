@@ -5,6 +5,7 @@ Herodot, Historien 2,121A1-B1
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Architektur, Handwerk
+:author: Herodot
 :images: modell-einer-steinsaege
 
 .. class:: original greek

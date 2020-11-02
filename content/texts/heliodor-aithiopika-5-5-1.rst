@@ -5,6 +5,7 @@ Heliodor, Aithiopika, 5, 5, 1
 :date: 2020-09-08
 :category: Das Maß der Steine
 :tags: Das Maß der Steine, Epigraphik, Grenzstein
+:author: Heliodor
 :images: doppelherme-portraets-sophokles-aristophanes
 
 .. class:: original greek

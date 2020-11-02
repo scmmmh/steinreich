@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36, 145-148
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Medizin, Magie, Wetzstein
+:author: Plinius der Ältere
 :images: gems-in-sri-lanka
 
 .. class:: original

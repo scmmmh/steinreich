@@ -5,6 +5,7 @@ Terenz, Der Eunuch 1085
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Redewendung / Sprichwort, Vergeblichkeit, Sisyphus, Mythos
+:author: Terenz
 :images: nekyia-staatliche-antikensammlung-1494-n2
 
 .. class:: original

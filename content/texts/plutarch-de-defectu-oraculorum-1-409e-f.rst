@@ -5,6 +5,7 @@ Plutarch, de defectu oraculorum (Über den Verfall der Orakel) 1, 409e-f
 :date: 2020-09-08
 :category: Das Maß der Steine
 :tags: Das Maß der Steine, Mythos, Entstehung, Omphalos
+:author: Plutarch
 :images: omphalos-museum
 
 .. class:: original greek

@@ -5,6 +5,7 @@ Ovid, Metamorphosen 9, 303
 :date: 2019-09-13
 :category: Steinhart und steinalt
 :tags: Steinhart und steinalt, Redewendung / Sprichwort, Härte, Emotion
+:author: Ovid
 :images: pebbles-in-rethymno-s-beach
 
 .. class:: original

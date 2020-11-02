@@ -5,6 +5,7 @@ Hildegard von Bingen, Das Buch von den Steinen, 46, 10-12 (Struck)
 :date: 2020-11-02
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Magie, Jaspis
+:author: Hildegard von Bingen
 :images: jaspis
 
 .. class:: original

@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,1,1-3
 :date: 2020-09-08
 :category: Mensch formt Stein – Stein formt Mensch
 :tags: Mensch formt Stein – Stein formt Mensch, Moral, Marmor, Steinbruch, Raubbau
+:author: Plinius der Ältere
 :images: modell-einer-steinsaege
 
 .. class:: original

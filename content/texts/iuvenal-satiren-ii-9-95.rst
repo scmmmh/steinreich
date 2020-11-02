@@ -5,6 +5,7 @@ Iuvenal, Satiren II,9,95
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Bimsstein, Kosmetik
+:author: Iuvenal
 :images: pumice-santorini
 
 .. class:: original

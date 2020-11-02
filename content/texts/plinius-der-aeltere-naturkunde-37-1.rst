@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 37, 1
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Edelsteine, Luxus
+:author: Plinius der Ältere
 :images: gems-in-sri-lanka
 
 .. class:: original

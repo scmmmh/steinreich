@@ -5,6 +5,7 @@ Martial, Epigramme 1,66,10
 :date: 2020-08-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Bimsstein, Literarischer Stil, Glätte
+:author: Martial
 :images: pumice-santorini
 
 .. class:: original

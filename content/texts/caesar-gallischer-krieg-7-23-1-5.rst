@@ -5,6 +5,7 @@ Caesar, Gallischer Krieg 7,23,1-5
 :date: 2020-09-08
 :category: Im Schutz der Steine
 :tags: Im Schutz der Steine, Befestigung, Architektur
+:author: Caesar
 :images: rekonstruktion-murus-gallicus-keltenmuseum-manching
 
 .. class:: original

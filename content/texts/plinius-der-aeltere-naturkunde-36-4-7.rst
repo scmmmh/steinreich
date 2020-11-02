@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,4-7
 :date: 2020-09-08
 :category: Der Weg der Steine
 :tags: Der Weg der Steine, Transport, Luxus, Marmor, Recht
+:author: Plinius der Ältere
 :images: casa-dei-crescenzi-portal
 
 .. class:: original

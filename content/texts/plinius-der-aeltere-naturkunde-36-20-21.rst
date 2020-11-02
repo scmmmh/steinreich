@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36, 20-21
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Statue, Praxiteles, (Hyper-)Realismus
+:author: Plinius der Ältere
 :images: venus-mdbk
 
 .. class:: original

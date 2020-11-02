@@ -5,6 +5,7 @@ Ps.-Aischylos, Der gefesselte Prometheus 349-374
 :date: 2020-09-08
 :category: Der Weg der Steine
 :tags: Der Weg der Steine, Prometheus, Vulkanismus, Entstehung, Strafe, Giganten / Titanen
+:author: Ps.-Aischylos
 :images: zeus-typhon-staatliche-antikensammlungen
 
 .. class:: original greek

@@ -5,6 +5,7 @@ Herodas, Mimiamben 4, 20-34
 :date: 2020-09-09
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Statue, Epigraphik, (Hyper-)Realismus, Praxiteles, Handwerk
+:author: Herodas
 :images: child-goose-glyphothek-munich
 
 .. class:: original greek

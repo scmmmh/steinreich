@@ -5,6 +5,7 @@ Apostolius, Sprichwörter 10, 72 / Erasmus von Rotterdamm, Adagia 3, 4, 74
 :date: 2020-09-08
 :category: Der Weg der Steine
 :tags: Der Weg der Steine, Redewendung / Sprichwort
+:author: Apostolius
 :images: findlinge-ackerflur-tauchaer-endmoraene-bei-liemehna
 
 .. class:: original greek

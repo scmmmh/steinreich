@@ -5,6 +5,7 @@ Martial, Epigramme 8,72,1-3
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Metapher, Bimsstein, Literarischer Stil, Glätte
+:author: Martial
 :images: pumice-santorini
 
 .. class:: original

@@ -5,6 +5,7 @@ Plinius der Ältere, Naturkunde 36,59-63
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Luxus, Edelsteine, Onyx, Alabaster, Steingefäße, Kosmetik, Handwerk
+:author: Plinius der Ältere
 :images: moderne-steinheilkunde-achatroller-glatte-haut-narbenbehandlung
 
 .. class:: original

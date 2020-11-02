@@ -5,6 +5,7 @@ Lukian, Bilder 4, 1ff.
 :date: 2020-09-08
 :category: Bilder aus Stein
 :tags: Bilder aus Stein, Statue, (Hyper-)Realismus, Praxiteles, Handwerk
+:author: Lukian
 :images: venus-mdbk
 
 .. class:: original greek
