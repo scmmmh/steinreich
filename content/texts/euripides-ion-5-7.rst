@@ -16,7 +16,7 @@ Euripides, Ion 5-7
 .. class:: translation
 
     | (Der Omphalos (griech.: „ὀμφαλός“, „Nabel“) war ein Kultstein im Apollon-Tempels in Delphi, der den Nabel bzw. Mittelpunkt der Welt markierte.)
-    | Ich kam hieher nach Delphi, wo Apoll
+    | Ich kam hierher nach Delphi, wo Apoll
     | Vom Erdennabel seine Sprüche singt.
     | Das Heute und das Morgen offenbart.
 

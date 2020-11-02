@@ -9,7 +9,7 @@ Iustinian Digesten 9,2,27,33
 
 .. class:: original
 
-    Si ex plostro lapis ceciderit et quid ruperit uel fregerit, Aquiliae actione plostrarium teneri placet, si male composuit lapides et ideo lapsi sunt.
+    Si ex plostro lapis ceciderit et quid ruperit vel fregerit, Aquiliae actione plostrarium teneri placet, si male composuit lapides et ideo lapsi sunt.
 
 .. class:: translation
 

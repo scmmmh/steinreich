@@ -17,7 +17,7 @@ Horaz, Von der Dichtkunst 304-8
 
 .. class:: translation
 
-    Doch nein, um solchen Preis nicht. So will ich denn des Wetzsteins Dienste tun: der hat zwar nicht die Gabe, selbst zu schneiden, kann aber Eisen scharf machen. Ohne selbst zu dichten, will ich Beruf und Pflicht des Dichters zeigen: wo er Gedankenreichtum sich erwirbt, was seinen Geist zu nähren und zu bilden dient, was ihm zu tun und nicht zu tun gebührt, wohin ihn echte Kunst, wohin des Irrtums Wahn ihn fuhren kann.
+    Doch nein, um solchen Preis nicht. So will ich denn des Wetzsteins Dienste tun: der hat zwar nicht die Gabe, selbst zu schneiden, kann aber Eisen scharf machen. Ohne selbst zu dichten, will ich Beruf und Pflicht des Dichters zeigen: wo er Gedankenreichtum sich erwirbt, was seinen Geist zu nähren und zu bilden dient, was ihm zu tun und nicht zu tun gebührt, wohin ihn echte Kunst, wohin des Irrtums Wahn ihn führen kann.
 
 .. class:: translation-source
 

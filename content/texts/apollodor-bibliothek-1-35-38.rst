@@ -24,8 +24,8 @@ Apollodor, Bibliothek 1,35-38
     Kinn; und als Füße hatten sie Drachenschuppen. Geboren wurden sie aber, wie manche sagen, in Phlegrai, wie aber
     andere (sagen), in Pallene. Sie schleuderten aber gen Himmel Felsen und glühende Bäume. […]  Athena aber schleuderte
     auf den fliehenden Enkelados die Insel Sizilien, dem Pallas aber zog sie durch einen Schnitt die Haut ab und bedeckte
-    mit dieser während des Kampfes ihren eigenen Körper. Polybotes aber, wurde von Poseidon durchs Meer verfolgt, kam
-    nach Kos; Poseidon aber riß einen Teil der Insel ab und warf diesen auf ihn, das sogenannte Nisyron. […] Auf die
+    mit dieser während des Kampfes ihren eigenen Körper. Polybotes aber, von Poseidon durchs Meer verfolgt, kam nach Kos;
+    Poseidon aber riß einen Teil der Insel ab und warf diesen auf ihn, das sogenannte Nisyron. […] Auf die
     anderen schmetterte Zeus Wetterstrahlen und vernichtete sie so. Allen aber, die zugrunde gingen, gab Herakles mit
     einem Bogenschuß den Rest.
 

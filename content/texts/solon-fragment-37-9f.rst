@@ -14,7 +14,7 @@ Solon, Fragment 37 9f
 
 .. class:: translation
 
-    | (Der athenische Staatsmann Solon veruscht, Volk und Adel miteinander zu versöhnen.)
+    | (Der athenische Staatsmann Solon versucht, Volk und Adel miteinander zu versöhnen.)
     | Ich stand zwischen ihnen wie ein Grenzstein im Niemandsland. (eig.: im Gebiet zwischen zwei Armeen/militärischen Territorien)
 
 .. class:: translation-source

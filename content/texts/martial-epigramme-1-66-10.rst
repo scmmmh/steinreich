@@ -15,7 +15,7 @@ Martial, Epigramme 1,66,10
 
 .. class:: translation
 
-    | (Martial rät Plagiatoren, unbekannte, nicht ofiziell publizierte Bücher als Vorlagen zu kaufen.)
+    | (Martial rät Plagiatoren, unbekannte, nicht offiziell publizierte Bücher als Vorlagen zu kaufen.)
     | Doch wenn es eins (ein Buch) gibt, das noch keine vom Bimsstein geglätteten
     | Ränder hat / und auch nicht mit Buchrollenstäben und einem pergamentenen Futteral
     | geschmückt ist, / dann kauf’ es! Solche habe ich: Keiner wird es erfahren.

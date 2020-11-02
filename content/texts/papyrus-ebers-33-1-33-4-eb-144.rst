@@ -1,7 +1,7 @@
-Papyrus Ebers
-=============
+Papyrus Ebers 33,1-33,4 (Eb 155)
+================================
 
-:slug: papyrus-ebers
+:slug: papyrus-ebers-33-1-33-4-eb-144
 :date: 2020-09-08
 :category: Die Kraft der Steine
 :tags: Die Kraft der Steine, Medizin
