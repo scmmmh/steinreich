@@ -4,8 +4,8 @@ Platon, Phaidon 110d-e
 :slug: platon-phaidon-110d-e
 :date: 2020-09-08
 :category: Die Kraft der Steine
-:tags: Die Kraft der Steine, Edelsteine, Entstehung, Mythos, Karneol
-:images: gems-in-sri-lanka
+:tags: Die Kraft der Steine, Edelsteine, Entstehung, Mythos, Karneol, Jaspis
+:images: jaspis
 
 .. class:: original greek
 
