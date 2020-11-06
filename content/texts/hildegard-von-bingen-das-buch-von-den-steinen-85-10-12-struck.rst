@@ -1,4 +1,4 @@
-Hidlegard von Bingen, Das Buch von den Steinen, 85, 10-12 (Struck)
+Hildegard von Bingen, Das Buch von den Steinen, 85, 10-12 (Struck)
 ==================================================================
 
 :slug: hildegard-von-bingen-das-buch-von-den-steinen-85-10-12-struck

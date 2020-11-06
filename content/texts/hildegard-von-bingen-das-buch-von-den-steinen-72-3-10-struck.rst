@@ -1,4 +1,4 @@
-Hidlegard von Bingen, Das Buch von den Steinen, 72, 3-10 (Struck)
+Hildegard von Bingen, Das Buch von den Steinen, 72, 3-10 (Struck)
 =================================================================
 
 :slug: hildegard-von-bingen-das-buch-von-den-steinen-72-3-10-struck

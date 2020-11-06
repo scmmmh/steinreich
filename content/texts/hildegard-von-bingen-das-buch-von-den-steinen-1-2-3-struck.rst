@@ -1,4 +1,4 @@
-Hidlegard von Bingen, Das Buch von den Steinen, 1, 2-3 (Struck)
+Hildegard von Bingen, Das Buch von den Steinen, 1, 2-3 (Struck)
 ===============================================================
 
 :slug: hildegard-von-bingen-das-buch-von-den-steinen-1-2-3-struck

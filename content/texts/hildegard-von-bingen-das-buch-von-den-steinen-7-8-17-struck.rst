@@ -1,4 +1,4 @@
-Hidlegard von Bingen, Das Buch von den Steinen, 7, 8-17 (Struck)
+Hildegard von Bingen, Das Buch von den Steinen, 7, 8-17 (Struck)
 ================================================================
 
 :slug: hildegard-von-bingen-das-buch-von-den-steinen-7-8-17-struck

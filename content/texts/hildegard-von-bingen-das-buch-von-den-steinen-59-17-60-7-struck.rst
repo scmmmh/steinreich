@@ -1,4 +1,4 @@
-Hidlegard von Bingen, Das Buch von den Steinen, 59, 17-60, 7 (Struck)
+Hildegard von Bingen, Das Buch von den Steinen, 59, 17-60, 7 (Struck)
 =====================================================================
 
 :slug: hildegard-von-bingen-das-buch-von-den-steinen-59-17-60-7-struck
