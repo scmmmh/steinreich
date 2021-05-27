@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-dart-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
     cleanCSS = require('gulp-clean-css'),
